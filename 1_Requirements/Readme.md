@@ -86,11 +86,40 @@ In this project, a new system is designed to perform various electrical and elec
 - And the code quality is ensured by screening the code in various code reviewing entities such as "Codacy", "Git Inspector", etc.
 
 # Detail requirements
-## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+## High Level Requirements
+| ID | Description | Status (Implemented) |
+| ---- | ----------- | --------------------------- |
+| HA01 | Calculation based on color code of the resistance| Implemented|
+| HA02 | Calculation of Current and Voltage using Current Division and Voltage Division Rule | Implemented |
+| HA03 | Star & Delta Conversions | Implemented |
+| HA04 | Calculation of maximum current in the cable across the Load| Implemented |
+| HA05 | Determining the voltage and current using ohms law| Implemented |
+| HA06 | Obtaining Series and Parallel resistance | Implemented|
+| HA07 | Finding the Traces of PCB designing and calculation of its Traces | Implemented|
+| HA08 | Calculation of Duty cycle |Implemented|
+| HA09 | Determing the Parameteres of Electrical Machines| Implemented |
+| HA10 | Obtaining Value of Phasor Voltages using Symmetrical Voltage components| Implemented |
 
 
-##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+
+
+## Low level Requirements
+| ID | Description |HLR|Status (To be implemented)| 
+| ---- | ----------- | --------------------------- |-----------|
+| LA01 | Calculation of Rasistance from the resistor color band | HA01 |To be implemented|
+| LA02 | Current Divsion Calculation using combination of resistance values| HA02 |To be implemented|
+| LA03 | Voltage Divsion Calculation using combination of resistance values| HA02 |To be implemented|
+| LA04 | Conversion of Star Network to Delta Network by evaluating value of Ra Rb RC | HA03 |To be implemented|
+| LA04 | Conversion of Delta Network to Star Network by evaluating value of Ra Rb RC | HA03 |To be implemented|
+| LA06 | maximisng the Value of Current and finding the Voltage Drop Across the  Load |HA04| To be implemented|
+| LA07 | Calculating Current, Resistance, Voltage using Ohms Law  |HA05|To be implemented|
+| LA08 | Equivalent Resistance(Series)  when Current accross the Resistor are same. (Decreasing of Current) |HA06| To be implemented|
+| LA09 | Equivalent Resistance(Parallel) when voltage accross the Resistor are same. (Increasing of Current) |HA06| To be implemented|
+| LA10 | We have to give current value to "trace" which  results in  increase in trace temperature below a specified limit. |HA07|To be implemented|
+| LA11 | By giving the length of the trace, total resistance, voltage drop, and power loss due to trace resistance are also calculated. |HA07|To be implemented|
+| LA11 | Duty Cycle is Being calculated by calculating Ton Period and Toff Period of the wave and Output Voltage of the wave .| HA08|To be implemented|
+| LA12 | Calculating Power Input and Output using Voltage and Current | HA09|To be implemented|
+| LA13 | Calculating Speed, Torque of Motor/Generator  | HA09|To be implemented|
+| LA14 | Inputting of 3 Symmetrical Voltage component as V0 V1 V2 |HA10|To be implemented|
+| LA15 | Calculating of Phase Voltage Va Vb Vc with a Phase shift Factor {a= 1<120 Degree} | HA10 | To be implemented|
