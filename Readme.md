@@ -1,4 +1,6 @@
 # SDLC Activity Based Learning
+![multi functional electronics calculator](https://user-images.githubusercontent.com/86049636/130192317-773e6430-ef58-4987-a201-8b80b2346e9e.png)
+
 
 Visit [Pages for Report -optional](using github.io option)
 
