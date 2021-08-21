@@ -4,7 +4,6 @@
 ![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
 
 
-Visit [Pages for Report -optional](using github.io option)
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
