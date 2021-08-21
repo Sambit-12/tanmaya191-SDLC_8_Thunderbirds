@@ -1,4 +1,4 @@
-# Team = "Thunder_Birds"
+#tanmaya191-SDLC_8_Thunderbirds
 ##SDLC Mini Project Group-8
 
 ![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
