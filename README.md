@@ -1,4 +1,4 @@
-# tanmaya191-SDLC_8_Thunderbirds
+# Team:- Thunder Birds
 ## SDLC Mini Project Group-8
 
 ![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
@@ -22,7 +22,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
+99005705 | Shashank Bhati  | Find Machine parameters and selection of Wires   | 1     | 1  | 8   | 8     
 `DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
 
 ## Challenges Faced and How Was It Overcome
