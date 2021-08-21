@@ -1,5 +1,5 @@
-#tanmaya191-SDLC_8_Thunderbirds
-##SDLC Mini Project Group-8
+# tanmaya191-SDLC_8_Thunderbirds
+## SDLC Mini Project Group-8
 
 ![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
 
@@ -7,7 +7,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/workflows/cppcheck.yml)| [![Unity - Unit Testing](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/unity.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gitinspector.yml)
+[![C/C++ CI](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/action/workflows/cppcheck.yml)| [![Unity - Unit Testing](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/unity.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure
