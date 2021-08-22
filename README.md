@@ -1,5 +1,8 @@
 # Team:- Thunder Birds
+
 ## SDLC Mini Project Group-8
+
+### System is designed to perform various electrical and electronics calculations.
 
 ![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
 
@@ -27,16 +30,25 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+### Day 1 
 
-## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+#### Challenges Faced - All having different ideas and thoughts. All ideas were unique and intresting which create lots of confusion to select the project.
+
+#### Overcome - At the end of secend meeting we finally select the project.
+
+
+### Day 2
+
+#### Challenges Faced - We all want to make the project user friendly and less complex which took lot of time in discussion. 
+
+#### Overcome - Each team member is very active and hard working. So, we easily overcome that challenge.
+
+
+### Day 3
+
+#### Challenges Faced - We all started working on different application. While working on respective code of application face some issues. 
+
+#### Overcome - We all share our problem in team group. So, member who know the solution share with others.
 
 
 
