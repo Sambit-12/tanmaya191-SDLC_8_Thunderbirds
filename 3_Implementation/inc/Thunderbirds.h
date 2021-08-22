@@ -33,5 +33,11 @@ int torque();
 int secondary_turns();
 int Wire_selection();
 int load_current();
+double parallel_inductance(int,double*);
+double parallel_capacitance(int,double*);
+int parallel();
+double series_inductance(int,double*);
+double series_capacitance(int,double*);
+int series();
 
 #endif  /* #define __THUNDERBIRDS_H__ */
