@@ -1,46 +1,29 @@
-# Requirements
-## Introduction
- --- TBD 
+# Team_meetings_Updates
 
-## Research
-![Description](Link to Pic)
--- Content 
-## Cost and Features and Timeline
-![Description](Link to Pic)
--- Content 
-## Defining Our System
-    -- TBD
-## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+## Day 1 - 19 August 2021
 
-# 4W&#39;s and 1&#39;H
+### Meeting Time : 3 p.m to 4 p.m  and   7:30 p.m to 8:30 p.m
 
-## Who:
-
-**TBD**
-
-## What:
-
-**TBD**
-
-## When:
-
-**TBD**
-
-## Where:
-
-**TBD**
-
-## How:
-
-**TBD**
-
-# Detail requirements
-## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+#### Meeting Minutes - Select the Project, Team name and Dirtribute the Day 1 task among all team memebers.
 
 
-##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+## Day 2 - 20 August 2021
+
+### Meeting Time : 2 p.m to 3 p.m  and   7:30 p.m to 8:30 p.m
+
+#### Meeting Minutes - Dirtribute the application of the project to each member and UML Diagram.
+
+
+## Day 3 - 21 August 2021
+
+### Meeting Time : 11 a.m to 12 p.m  and   5:30 p.m to 6:30 p.m
+
+#### Meeting Minutes - Each member share there proogress to respected application and disscus on Day 3 task to complete.  
+                
+
+## Day 4 - 22 August 2021
+
+### Meeting Time : 11 a.m to 12 p.m  and   3:30 p.m to 4:30 p.m
+
+#### Meeting Minutes - Some member completed their task so, push their code in team ripo and other were working on it. Also disscus on Day 4 task to complete. 
+
