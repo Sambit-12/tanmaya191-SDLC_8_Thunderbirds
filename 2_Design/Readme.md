@@ -26,5 +26,17 @@
 
 ![FeaturesLevelStructuralDiagram](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/c0adc5d1edb67759111976f6ee67eecce38629f0/Low%20level.jpg)
 
+## Application 3 - Calculating equivalent capacitance and inductance in parallel connection
 
+### Architecture
+![image](https://github.com/314181/practise/blob/main/parallel%20LC.png)
+### Usecase
+![image](https://github.com/314181/practise/blob/main/parallelLC%20Usecase.png)
+
+## Calculating equivalent capacitance and inductance in series connection
+
+### Architecture
+![image](https://github.com/314181/practise/blob/main/series%20LC.png)
+### Usecase
+![image](https://github.com/314181/practise/blob/main/seriesLC%20Usecase.png)
 
