@@ -14,6 +14,8 @@ src/title.c\
 src/Load_current.c\
 src/Factor_s.c\
 src/Wire_selection.c\
+src/parallel.c\
+src/series.c\
 
 
 
