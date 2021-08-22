@@ -11,7 +11,7 @@ int main()
 
 
    
-   int  a ,b ,c,result;
+   int  a ,b ,c,result,Power,Voltage;
 
    switch (Parameter_s())
 
@@ -99,35 +99,33 @@ int main()
        break;
    }
     case 11:
+    {
     ohm(); 
     break;
+    }
 
     // Case for performing tensile strength calculation
     case 12:
+    {
     tscalci();
     break;
+    }
 
     // Case for performing Kirchoff's voltage law
     case 13:
+    {
     kvl();
     break;
+    }
 
     // Case for performing Kirchoff's Current law
     case 14:
+    {
     kcl(); 
     break;
-   }
-         
-         //title();
-         Parameter_s();
+    }    
     
-    Factor_s();
-   
-
-    int Power,Voltage;
-    switch (Wire_selection())
-    {
-        case 1:
+        case 15:
         {
             printf("+++If the volage is in range of 120-220 for domestic purposes+++\n");
             printf("Enter the value of Power and Voltage\n");
@@ -178,7 +176,7 @@ int main()
 
 
         }
-         case 2:
+         case 16:
         {
             printf("+++If the volage is in range of 420-440 for industrial purposes+++\n");
             printf("Enter the value of Power and Voltage\n");

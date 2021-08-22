@@ -28,6 +28,8 @@ int Parameter_s()
    printf("\n12.Tensile Strength");
    printf("\n13.Kirchoff's Voltage Law");
    printf("\n14.Kirchoff's Current Law");
+   printf("\n15.Single-core");
+   printf("\n16.Multi-core");
    printf("\nEnter your choice:");
 
    scanf("%d", &ch);
