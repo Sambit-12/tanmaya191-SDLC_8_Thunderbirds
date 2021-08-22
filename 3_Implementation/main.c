@@ -1,4 +1,6 @@
 #include "inc/Thunderbirds.h"
+#include "halfadder.h"
+#include "halfsubtractor.h"
 int main()
 
 
@@ -75,6 +77,18 @@ int main()
       result = secondary_turns(a,b,c);
       printf("The Secondary side turn of Transformer : %d", result);
       break;
+   }
+    // Sambit's code
+   case 8:
+   {
+       adder();
+       break;
+   }
+
+   case 9:
+   {
+       subtractor();
+       break;
    }
    }
          

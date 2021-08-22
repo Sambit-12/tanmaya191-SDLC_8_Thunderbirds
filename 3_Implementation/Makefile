@@ -16,13 +16,17 @@ src/Factor_s.c\
 src/Wire_selection.c\
 src/parallel.c\
 src/series.c\
+src/halfadder.c\
+src/halfsubtractor.c
 
 
 
-COV_SRC = test/test_Thunderbirds.c
+COV_SRC = test/test_Thunderbirds.c\
+
 
 TEST_SRC = test/test_Thunderbirds.c\
 unity/unity.c 
+
 INC_H = inc
 INC_T = unity
 

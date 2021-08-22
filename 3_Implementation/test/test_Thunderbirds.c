@@ -10,6 +10,8 @@
  */
 #include "Thunderbirds.h"
 #include "unity.h"
+#include "halfadder.h"
+#include "halfsubtractor.h"
 
 /// Required by the unity test framework 
 void setUp(){}
@@ -29,7 +31,10 @@ void test_series_capacitance(void);
 void test_series_inductance(void);
 void test_parallel_capacitance(void);
 void test_parallel_inductance(void);
-
+void test_halfadd1(void);
+void test_halfadd2(void);
+void test_halfsub1(void);
+void test_halfsub2(void);
 
 
 
@@ -112,6 +117,33 @@ void test_parallel_capacitance(void)
   TEST_ASSERT_EQUAL(90.000000,parallel_capacitance(3,z));
 }
 
+/// sambit's test cases
+
+void test_halfadd1(void)
+{
+  TEST_ASSERT_EQUAL(1,halfadd(1,0));
+  //To check the Sum of the Adder 1 Xor 0 gives 1
+
+}
+void test_halfadd2(void)
+{
+
+  TEST_ASSERT_EQUAL(1,halfadd(1,0));
+  //To check the Carry of the Adder
+}
+void test_halfsub1(void)
+{
+  TEST_ASSERT_EQUAL(0,halfsub(1,1));
+  //To check the Difference of the subtractor 1 Xor 1 gives 0
+
+}
+  void test_halfsub2(void)
+{
+  TEST_ASSERT_EQUAL(1,halfsub(0,1));
+  //To check the Borrow  of the subtractor 
+
+}
+
 /* Start of the application test */
 int main()
 {
@@ -132,7 +164,11 @@ int main()
   RUN_TEST(test_parallel_capacitance);
   RUN_TEST(test_parallel_inductance);
  
-
+ // Sambit's test cases
+  RUN_TEST(test_halfadd1);
+  RUN_TEST(test_halfadd2);
+  RUN_TEST(test_halfsub1);
+  RUN_TEST(test_halfsub2);
 
   /* Close the Unity Test Framework */
   return UNITY_END();

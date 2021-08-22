@@ -21,7 +21,10 @@ int Parameter_s()
    printf("\n5.speed");
    printf("\n6.torque");
    printf("\n7.secondary_turns");
+   printf("\n8.Half adder");
+   printf("\n9.Half subtractor");
    printf("\nEnter your choice:");
+
    scanf("%d", &ch);
    return (ch);
 }
