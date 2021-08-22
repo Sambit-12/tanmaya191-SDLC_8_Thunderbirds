@@ -18,7 +18,11 @@ src/parallel.c\
 src/series.c\
 src/halfadder.c\
 src/halfsubtractor.c\
-src/DutyCycle.c
+src/DutyCycle.c\
+src/kvl.c\
+src/kcl.c\
+src/ohm.c\
+src/tensiles.c
 
 
 

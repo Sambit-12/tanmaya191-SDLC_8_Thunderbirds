@@ -1,7 +1,8 @@
 #include "inc/Thunderbirds.h"
-#include "halfadder.h"
-#include "halfsubtractor.h"
-#include "DutyCycle.h"
+#include "inc/halfadder.h"
+#include "inc/halfsubtractor.h"
+#include "inc/DutyCycle.h"
+#include "inc/project.h"
 int main()
 
 
@@ -97,9 +98,28 @@ int main()
        Sambit();
        break;
    }
+    case 11:
+    ohm(); 
+    break;
+
+    // Case for performing tensile strength calculation
+    case 12:
+    tscalci();
+    break;
+
+    // Case for performing Kirchoff's voltage law
+    case 13:
+    kvl();
+    break;
+
+    // Case for performing Kirchoff's Current law
+    case 14:
+    kcl(); 
+    break;
    }
          
-         title();
+         //title();
+         Parameter_s();
     
     Factor_s();
    
@@ -207,7 +227,7 @@ int main()
 
       default:
       {
-      printf("wrong choise : \n");
+      printf("wrong choice : \n");
       break;
       }
    }
