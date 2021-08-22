@@ -21,7 +21,7 @@ src/series.c\
 
 COV_SRC = test/test_Thunderbirds.c
 
-TEST_SRC = test/test_Thunderbirds.c \
+TEST_SRC = test/test_Thunderbirds.c\
 unity/unity.c 
 INC_H = inc
 INC_T = unity
