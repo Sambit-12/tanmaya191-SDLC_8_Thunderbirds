@@ -100,6 +100,8 @@ In this project, a new system is designed to perform various electrical and elec
 | HA08 | Calculation of Duty cycle |Implemented|
 | HA09 | Determing the Parameteres of Electrical Machines| Implemented |
 | HA10 | Obtaining Value of Phasor Voltages using Symmetrical Voltage components| Implemented |
+| HA11 | Calculating Equivalent capacitance and Inductance both in series and parallel | Implemented |
+
 
 
 
@@ -123,3 +125,4 @@ In this project, a new system is designed to perform various electrical and elec
 | LA13 | Calculating Speed, Torque of Motor/Generator  | HA09|To be implemented|
 | LA14 | Inputting of 3 Symmetrical Voltage component as V0 V1 V2 |HA10|To be implemented|
 | LA15 | Calculating of Phase Voltage Va Vb Vc with a Phase shift Factor {a= 1<120 Degree} | HA10 | To be implemented|
+| LA16 | Calculating LC in series and parallel | HA11 | Implemented |
