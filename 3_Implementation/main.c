@@ -10,7 +10,7 @@ int main()
    Welcome_screen();
 
 
-   login_screen();
+   
    int  a ,b ,c,result;
 
    switch (Parameter_s())
