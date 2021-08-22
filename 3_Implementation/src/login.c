@@ -21,29 +21,3 @@ void Welcome_screen(void)
    system("cls");
 }
 
-void login_screen(void)
-{
-
-   char Username[15];
-   char Password[10];
-   char original_Usernmae[15] = "shashank";
-   char original_Password[10] = "1234";
-
-   printf("Enter Your Username and Password......: \n");
-   printf("Your Username :\n");
-   scanf("%s", Username);
-   printf("Your Password :\n");
-   scanf("%s", Password);
-   if (strcmp(Username, original_Usernmae) == 0 && strcmp(Password, original_Password) == 0)
-   {
-      printf("Login Sucessful\n");
-      system("cls");
-      printf("Now we are ready to find the different Parameters :\n");
-      printf("Let's Begin........!!\n");
-      
-   }
-   else
-   {
-      printf("Login Unsucessful.......!!!\n");
-   }
-}
