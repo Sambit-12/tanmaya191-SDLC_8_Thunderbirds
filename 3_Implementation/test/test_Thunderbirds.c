@@ -25,6 +25,11 @@ void test_speed(void);
 void test_torque(void);
 void test_secondary_turns(void);
 void test_load_current(void);
+void test_series_capacitance(void);
+void test_series_inductance(void);
+void test_parallel_capacitance(void);
+void test_parallel_inductance(void);
+
 
 
 
@@ -78,7 +83,34 @@ void test_secondary_turns(void)
 
   TEST_ASSERT_EQUAL(40,secondary_turns(20,40,20));
    //help to check the secondary_turns is the machine
-}   
+}
+double x[3]={10,10,10};
+double y[3]={20,20,20};
+double z[3]={30,30,30};
+void test_series_inductance(void)
+{
+  TEST_ASSERT_EQUAL(30.000000,series_inductance(3,x));
+  TEST_ASSERT_EQUAL(60.000000,series_inductance(3,y));
+  TEST_ASSERT_EQUAL(90.000000,series_inductance(3,z));
+}
+void test_series_capacitance(void)
+{
+  TEST_ASSERT_EQUAL(3.333333,series_capacitance(3,x));
+  TEST_ASSERT_EQUAL(6.666667,series_capacitance(3,y));
+  TEST_ASSERT_EQUAL(10.000000,series_capacitance(3,z));
+}
+void test_parallel_inductance(void)
+{
+  TEST_ASSERT_EQUAL(3.000000,parallel_inductance(3,x));
+  TEST_ASSERT_EQUAL(6.000000,parallel_inductance(3,y));
+  TEST_ASSERT_EQUAL(10.000000,parallel_inductance(3,z));
+}
+void test_parallel_capacitance(void)
+{
+  TEST_ASSERT_EQUAL(30.333333,parallel_capacitance(3,x));
+  TEST_ASSERT_EQUAL(60.666667,parallel_capacitance(3,y));
+  TEST_ASSERT_EQUAL(90.000000,parallel_capacitance(3,z));
+}
 
 /* Start of the application test */
 int main()
@@ -95,6 +127,10 @@ int main()
   RUN_TEST(test_torque);
   RUN_TEST(test_secondary_turns);
   RUN_TEST(test_load_current);
+  RUN_TEST(test_series_capacitance);
+  RUN_TEST(test_series_inductance);
+  RUN_TEST(test_parallel_capacitance);
+  RUN_TEST(test_parallel_inductance);
  
 
 
