@@ -40,3 +40,26 @@
 ### Usecase
 ![image](https://github.com/314181/practise/blob/main/seriesLC%20Usecase.png)
 
+## Application 4 To Find Duty Cycle and Voltage of the Output waveform
+
+### Ton Period, Toff Period, Output voltage, input voltage 
+
+### High Level Design 
+
+![HighLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/HELP/main/HL%20UML%20For%20Duty%20Cycle.png)
+
+### Low Level Design 
+
+![FeaturesLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/HELP/main/LL%20UML%20for%20Duty%20Cycle.png)
+
+## Application 5 To Display Half Adder and Subtractor
+
+### A B Bits, Sum(XOR), Carry(AND), Difference(XOR), Borrow(!A AND B)
+
+### High Level Design 
+
+![HighLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/Mywork/main/HL%20UML%20Diagram%20for%20Half%20Adder%20and%20Subtractor.jpg)
+
+### Low Level Design 
+
+![FeaturesLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/Mywork/main/LL%20UML%20DIAGRAM%20for%20Half%20Adder%20and%20Subtractor.jpg)
