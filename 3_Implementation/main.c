@@ -3,6 +3,7 @@
 #include "inc/halfsubtractor.h"
 #include "inc/DutyCycle.h"
 #include "inc/project.h"
+#include "trace_width.h"
 int main()
 
 
@@ -125,7 +126,7 @@ int main()
     break;
     }    
     
-        case 15:
+    case 15:
         {
             printf("+++If the volage is in range of 120-220 for domestic purposes+++\n");
             printf("Enter the value of Power and Voltage\n");
@@ -176,7 +177,7 @@ int main()
 
 
         }
-         case 16:
+    case 16:
         {
             printf("+++If the volage is in range of 420-440 for industrial purposes+++\n");
             printf("Enter the value of Power and Voltage\n");
@@ -228,6 +229,13 @@ int main()
       printf("wrong choice : \n");
       break;
       }
+   }
+   
+   //tanmaya's code
+   case 17:
+   {
+       trace_width_calculator();
+       break;
    }
    return 0;
 }

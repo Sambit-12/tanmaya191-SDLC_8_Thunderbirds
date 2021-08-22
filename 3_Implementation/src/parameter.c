@@ -30,6 +30,7 @@ int Parameter_s()
    printf("\n14.Kirchoff's Current Law");
    printf("\n15.Single-core");
    printf("\n16.Multi-core");
+   printf("\n17.PCB Trace width calculator");
    printf("\nEnter your choice:");
 
    scanf("%d", &ch);

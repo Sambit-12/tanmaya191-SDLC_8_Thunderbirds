@@ -21,7 +21,8 @@ src/DutyCycle.c\
 src/kvl.c\
 src/kcl.c\
 src/ohm.c\
-src/tensiles.c
+src/tensiles.c\
+src/trace_width.c
 
 
 
