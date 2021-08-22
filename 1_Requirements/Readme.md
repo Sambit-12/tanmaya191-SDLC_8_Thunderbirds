@@ -22,9 +22,17 @@ In this project, a new system is designed to perform various electrical and elec
 *	The relation between torque and speed are inversely proportional to each other. 
 *	Frequency is the rate at which current changes its direction per second in a machine. The output power is   calculated with the help of input power and losses in the motor.
 
-### Phasor voltage
-*	The electrical power system operates in a balanced three-phase sinusoidal operation symmetrical components can transform an unbalanced condition into symmetrical components, compute the system response by straight forward circuit analysis on simple circuit models, and transform the results back into original phase variables.
-*	The theory of symmetrical components resolves any set of unbalanced voltages or currents into three sets of symmetrical balanced phasors. These are known as positive, negative and zero sequence components.
+### Half Adder 
+*	It is a arithmetic combinational logic circuit designed to perform addition of two single bits.
+* It contain two inputs and produces two outputs.
+* Inputs are called Augend and Added bits and Outputs are called Sum and Carry.
+*	Sum =  A XOR B
+*	Carry= A AND B 
+### Half Subtractor
+* It is a combinational logic circuit designed to perform subtraction of two single bits.
+* It contains two inputs (A and B) and produces two outputs (Difference and Borrow-output).
+* Difference = A XOR B
+* Borrow     =!A AND B
 
 ### PCB Trace Width
 *	The trace is a conducting track that connects connects components electrically and allows electric current to flow with little resistance.
@@ -99,8 +107,9 @@ In this project, a new system is designed to perform various electrical and elec
 | HA07 | Finding the Traces of PCB designing and calculation of its Traces | Implemented|
 | HA08 | Calculation of Duty cycle |Implemented|
 | HA09 | Determing the Parameteres of Electrical Machines| Implemented |
-| HA10 | Obtaining Value of Phasor Voltages using Symmetrical Voltage components| Implemented |
-| HA11 | Calculating Equivalent capacitance and Inductance both in series and parallel | Implemented |
+| HA10 | Obtaining the Expression for Half Adder| Implemented |
+| HA11 | Obtaining the Expression for Half Subtractor| Implemented|
+| HA12 | Calculating Equivalent capacitance and Inductance both in series and parallel | Implemented |
 
 
 
@@ -123,6 +132,8 @@ In this project, a new system is designed to perform various electrical and elec
 | LA11 | Duty Cycle is Being calculated by calculating Ton Period and Toff Period of the wave and Output Voltage of the wave .| HA08|To be implemented|
 | LA12 | Calculating Power Input and Output using Voltage and Current | HA09|To be implemented|
 | LA13 | Calculating Speed, Torque of Motor/Generator  | HA09|To be implemented|
-| LA14 | Inputting of 3 Symmetrical Voltage component as V0 V1 V2 |HA10|To be implemented|
-| LA15 | Calculating of Phase Voltage Va Vb Vc with a Phase shift Factor {a= 1<120 Degree} | HA10 | To be implemented|
+| LA14 | Input of 4 Sequence Given 0 0, 0 1, 1 0, 11 For Half Adder |HA10|To be implemented|
+| LA15 | Performing XOR and AND Operation in all the 4 Sequence 0 0, 0 1, 1 0, 11 to get Half Adder Result | HA10 | To be implemented|
+| LA16 | Input of 4 Sequence Given 0 0, 0 1, 1 0, 11 For Half Subtractor |HA11|To be implemented|
+| LA17 | Performing XOR and (!)Not oepration with  AND Operation combined to all the 4 Sequence 0 0, 0 1, 1 0, 11 to get Half Subtractor Result | HA11 | To be implemented|
 | LA16 | Calculating LC in series and parallel | HA11 | Implemented |
