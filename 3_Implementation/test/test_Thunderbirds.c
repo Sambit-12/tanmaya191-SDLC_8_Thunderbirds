@@ -10,8 +10,11 @@
  */
 #include "Thunderbirds.h"
 #include "unity.h"
+
+// sambit's header files
 #include "halfadder.h"
 #include "halfsubtractor.h"
+#include "DutyCycle.h"
 
 /// Required by the unity test framework 
 void setUp(){}
@@ -31,10 +34,14 @@ void test_series_capacitance(void);
 void test_series_inductance(void);
 void test_parallel_capacitance(void);
 void test_parallel_inductance(void);
+
+// sambit's test cases
 void test_halfadd1(void);
 void test_halfadd2(void);
 void test_halfsub1(void);
 void test_halfsub2(void);
+void test_Dutycycle(void);
+void test_VoltageOutputofDutyCycle(void);
 
 
 
@@ -143,6 +150,18 @@ void test_halfsub1(void)
   //To check the Borrow  of the subtractor 
 
 }
+void test_Dutycycle(void)
+{
+  TEST_ASSERT_EQUAL(0.400000,Dutycycle(2,3));
+  //Value give as 1 and 0 Ton and Toff to get an Duty cycle value as 1
+
+}
+void test_VoltageOutputofDutyCycle(void)
+{
+
+  TEST_ASSERT_EQUAL(10.000000,VoltageOutputofDutyCycle(0.5,10));
+  //To check the output voltage by putting Duty cycle as 5 and input voltage as 1
+}
 
 /* Start of the application test */
 int main()
@@ -169,6 +188,8 @@ int main()
   RUN_TEST(test_halfadd2);
   RUN_TEST(test_halfsub1);
   RUN_TEST(test_halfsub2);
+  RUN_TEST(test_Dutycycle);
+  RUN_TEST(test_VoltageOutputofDutyCycle);
 
   /* Close the Unity Test Framework */
   return UNITY_END();

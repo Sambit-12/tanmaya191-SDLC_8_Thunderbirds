@@ -17,7 +17,8 @@ src/Wire_selection.c\
 src/parallel.c\
 src/series.c\
 src/halfadder.c\
-src/halfsubtractor.c
+src/halfsubtractor.c\
+src/DutyCycle.c
 
 
 

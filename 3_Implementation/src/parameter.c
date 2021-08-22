@@ -23,6 +23,7 @@ int Parameter_s()
    printf("\n7.secondary_turns");
    printf("\n8.Half adder");
    printf("\n9.Half subtractor");
+   printf("\n10.Duty Cycle or Voltage of Output Waveform");
    printf("\nEnter your choice:");
 
    scanf("%d", &ch);

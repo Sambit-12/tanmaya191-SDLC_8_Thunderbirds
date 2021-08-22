@@ -1,6 +1,7 @@
 #include "inc/Thunderbirds.h"
 #include "halfadder.h"
 #include "halfsubtractor.h"
+#include "DutyCycle.h"
 int main()
 
 
@@ -88,6 +89,12 @@ int main()
    case 9:
    {
        subtractor();
+       break;
+   }
+
+   case 10:
+   {
+       Sambit();
        break;
    }
    }
