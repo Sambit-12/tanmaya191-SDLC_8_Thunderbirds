@@ -25,9 +25,9 @@ int Parameter_s()
    printf("\n9.Half subtractor");
    printf("\n10.Duty Cycle or Voltage of Output Waveform");
    printf("\n11.Ohm's Law");
-   printf("\n11.Tensile Strength");
-   printf("\n12.Kirchoff's Voltage Law");
-   printf("\n12.Kirchoff's Current Law");
+   printf("\n12.Tensile Strength");
+   printf("\n13.Kirchoff's Voltage Law");
+   printf("\n14.Kirchoff's Current Law");
    printf("\nEnter your choice:");
 
    scanf("%d", &ch);
