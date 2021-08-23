@@ -4,18 +4,18 @@
  * @brief To calculate the capacitance and inductance in series connection
  * @version 0.1
  * @date 2021-08-22
- * 
+ *
  * @copyright Copyright (c) 2021
- * 
+ *
  */
 #include <stdio.h>
 #include "../inc/Thunderbirds.h"
 /**
  * @brief calculation of series capacitance
- * 
- * @param number_of_capacitors 
- * @param capacitor 
- * @return double 
+ *
+ * @param number_of_capacitors
+ * @param capacitor
+ * @return double
  */
 
 double series_capacitance(int number_of_capacitors, double capacitor[])
@@ -32,11 +32,11 @@ double series_capacitance(int number_of_capacitors, double capacitor[])
    return series_equivalent_capacitance;
 }
 /**
- * @brief 
- * 
- * @param number_of_inductors 
- * @param inductor 
- * @return double 
+ * @brief
+ *
+ * @param number_of_inductors
+ * @param inductor
+ * @return double
  */
 double series_inductance(int number_of_inductors, double inductor[])
 {
@@ -49,20 +49,39 @@ double series_inductance(int number_of_inductors, double inductor[])
    }
 
    return series_equivalent_inductor;
+
+/**
+ * @brief
+ *
+ * @param number_of_resistors
+ * @param resistor
+ * @return double
+ */
+double series_resistance(int number_of_resistors, double resistor[])
+{
+   int loop_counter = 0;
+   double series_equivalent_resistor = 0;
+
+   for (loop_counter = 0; loop_counter < number_of_resistors; loop_counter++)
+   {
+      series_equivalent_resistor = series_equivalent_resistor + resistor[loop_counter];
+   }
+
+   return series_equivalent_resistor;
 }
 /**
  * @brief choice taken from user for which passive element equivalent series is to be found
- * 
- * @return int 
+ *
+ * @return int
  */
 int series()
 {
    int choice;
    printf("\nEnter which passive element's series equivalent you want to find \n");
-   printf("\n Enter \nPress 1 'C' for capacitance \nPress 2 'I' for inductance \n");
+   printf("\n Enter \nPress 1 'C' for capacitance \nPress 2 'I' for inductance \nPress 3 'R' for resistance \n");
    scanf("%d", &choice);
 
-   
+
    if (choice == 1)
    {
       int number_of_capacitors, loop_counter = 0;
@@ -98,6 +117,24 @@ int series()
 
       series_equivalent_inductor = series_inductance(number_of_inductors, inductor);
       printf("\nEquivalent Series Inductance : %lf milli Henry", series_equivalent_inductor);
+   }
+      if (choice == 3)
+   {
+      int number_of_resistors, loop_counter = 0;
+      double resistor[100], series_equivalent_resistor = 0;
+
+      printf("\nEnter the number of Resistors : ");
+      scanf("%d", &number_of_resistors);
+
+      printf("\nEnter Value of Each Resistance in milli Henry : ");
+      for (loop_counter = 0; loop_counter < number_of_resistors; loop_counter++)
+      {
+         printf("\n Resistor value%d : ", loop_counter + 1);
+         scanf("%lf", &resistor[loop_counter]);
+      }
+
+      series_equivalent_resistor = series_resistance(number_of_resistors, resistor);
+      printf("\nEquivalent Series Resistance : %lf milli Ohm", series_equivalent_resistor);
    }
    return 0;
 }

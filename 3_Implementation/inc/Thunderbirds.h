@@ -1,12 +1,12 @@
 /**
  * @file Thunderbirds.h
- * @author 
+ * @author
  * @brief contains all the headers required.
  * @version 0.1
  * @date 2021-08-22
- * 
+ *
  * @copyright Copyright (c) 2021
- * 
+ *
  */
 #ifndef __THUNDERBIRDS_H__
 #define __THUNDERBIRDS_H__
@@ -34,9 +34,11 @@ int secondary_turns();
 int Wire_selection();
 int load_current();
 double parallel_inductance(int,double*);
+double parallel_resistance(int,double*);
 double parallel_capacitance(int,double*);
 int parallel();
 double series_inductance(int,double*);
+double series_resistance(int,double*);
 double series_capacitance(int,double*);
 int series();
 
