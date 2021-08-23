@@ -2,7 +2,6 @@ PROJ_NAME = Thunderbirds
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 SRC = src/freq.c\
-src/login.c\
 src/parameter.c\
 src/power_input.c\
 src/power_output.c\
@@ -10,7 +9,6 @@ src/resistance.c\
 src/secondary_turns.c\
 src/speed.c\
 src/torque.c\
-src/title.c\
 src/Load_current.c\
 src/Factor_s.c\
 src/parallel.c\
@@ -22,7 +20,8 @@ src/kvl.c\
 src/kcl.c\
 src/ohm.c\
 src/tensiles.c\
-src/trace_width.c
+src/trace_width.c\
+src/starDeltaConversion.c\
 
 
 
