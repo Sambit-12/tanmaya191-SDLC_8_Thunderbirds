@@ -12,7 +12,7 @@
     #define DutyCycle_h
     #include <stdio.h>
     #include <stdlib.h>
-    int Sambit();
+    int Sambit_Dutycycle();
     int Parameter_sambit();
     float Dutycycle(float,float);
     float VoltageOutputofDutyCycle(float,float);
