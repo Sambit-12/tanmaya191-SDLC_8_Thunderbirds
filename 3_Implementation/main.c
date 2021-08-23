@@ -124,11 +124,8 @@ int main()
             getColorCode(colorCode);
              r_value =  getResistorValue(colorCode, colorValue, r_value);
              printf("\n\nThe resistor with color code %c %c %c %c has a value of %d Ohms.\n",
-             colorCode[0], colorCode[1], colorCode[2], colorCode[3], r_value);
-        }
-
-        
-        break;
+             colorCode[0], colorCode[1], colorCode[2], colorCode[3], r_value)
+             break;
     }
         case 16:
         {
