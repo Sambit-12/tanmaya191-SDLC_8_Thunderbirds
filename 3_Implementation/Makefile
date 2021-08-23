@@ -70,9 +70,17 @@ test: test_build
 	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
 
 #Coverage
-coverage:$(BUILD)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)) -lm
-	./$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+coverage:
+	cp test/test_Thunderbirds.c .
+	gcc -fprofile-arcs -ftest-coverage -I $(INC) unity/unity.c test/test_Thunderbirds.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
+	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC)) 
+	gcov -a $(COV_SRC)
+	$(RM) *.$(EXEC)
+	$(RM) *.gcda
+	$(RM) *.gcno
+	$(RM) *.c.gcov
+	$(RM) *.DAT
+	$(RM) Test_Thunderbirds.c
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
