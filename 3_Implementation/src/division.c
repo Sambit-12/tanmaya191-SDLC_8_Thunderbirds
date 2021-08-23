@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "..inc/Thunderbirds.h"
+#include "..inc/division.h"
 
 double voltage_division(double input_voltage, double load_resistance, double resistance2)
 {
