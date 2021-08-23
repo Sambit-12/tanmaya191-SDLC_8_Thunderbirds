@@ -24,6 +24,8 @@ src/trace_width.c\
 src/starDeltaConversion.c\
 src/division.c\
 src/CircularConvolution.c\
+src/getColorCode.c\
+src/getResistorValue.c\
 
 
 
