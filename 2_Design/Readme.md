@@ -73,3 +73,10 @@
 ### Usecase Diagram
 
 ![usecase](https://user-images.githubusercontent.com/67622262/130361011-7f9cd65a-98f2-461d-9216-59eff6700ff3.png)
+
+## APPLICATON 7 - REGISTOR COLOUR CODE
+![HLD1 (1)](https://user-images.githubusercontent.com/62294775/130433353-26266abb-8708-4827-ae07-6d7bfa9d38a4.png)
+
+### BEHAVIOURAL DIAGRAM
+![HLD1](https://user-images.githubusercontent.com/62294775/130433672-5ae0e919-6845-4437-8f40-b2ab94d72655.png)
+
