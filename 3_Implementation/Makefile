@@ -47,9 +47,8 @@ test/test_Thunderbirds.c \
 test/unity.c\
 
 
-INC = \
-inc \
-test \
+INC = -Iinc \
+-Itest \
 
 TEST_INC = \
 test\
