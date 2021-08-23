@@ -22,6 +22,7 @@ src/ohm.c\
 src/tensiles.c\
 src/trace_width.c\
 src/starDeltaConversion.c\
+src/division.c\
 
 
 
