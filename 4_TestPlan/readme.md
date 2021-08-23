@@ -14,7 +14,8 @@
 
 ## Table no: Low level test plan
 
-| **Test ID** | **Description**  | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
+| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
+|-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 
 |  L_01       | Calculate the Different Machine Parameters | Success | Success | Success | Requirement based |
 |  L_02       | Calculate the Different Machine Parameters | Success | Success | Success | Scenario based    |
