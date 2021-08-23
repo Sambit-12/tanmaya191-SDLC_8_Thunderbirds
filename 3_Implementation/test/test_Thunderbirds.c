@@ -17,6 +17,10 @@
 #include "DutyCycle.h"
 #include "project.h"
 
+
+//tanmaya's header files
+#include "trace_width.h"
+
 /// Required by the unity test framework 
 void setUp(){}
 /// Required by the unity test framework 
@@ -48,7 +52,9 @@ void testohm_v(void);
 void testohm_c(void);
 void testohm_r(void);
 
-
+// tanmaya's test cases
+void test_trace_width_internal();
+void test_trace_width_external();
 
 
 
@@ -62,7 +68,6 @@ void test_load_current(void)
   TEST_ASSERT_EQUAL(11,load_current(2420,220));
   //help to check the load current to find the correct wire
 }
-
 void test_power_input(void) 
 {
   TEST_ASSERT_EQUAL(10,power_input(5,2));
@@ -130,9 +135,7 @@ void test_parallel_capacitance(void)
   TEST_ASSERT_EQUAL(60.666667,parallel_capacitance(3,y));
   TEST_ASSERT_EQUAL(90.000000,parallel_capacitance(3,z));
 }
-
 /// sambit's test cases
-
 void test_halfadd1(void)
 {
   TEST_ASSERT_EQUAL(1,halfadd(1,0));
@@ -204,6 +207,19 @@ void testohm_r(void)
     TEST_ASSERT_NOT_EQUAL(1.9, ohm_r(-1, 2.1));  
 }
 
+// tanmaya's test cases
+void test_trace_width_external()
+{
+  TEST_ASSERT_EQUAL(0, external_trace_width_calculator(5,2,0,6.6,8));
+  TEST_ASSERT_NOT_EQUAL(0, external_trace_width_calculator(8,2.36,1.5,6.6,8));
+}
+
+void test_trace_width_internal()
+{
+  TEST_ASSERT_EQUAL(0, internal_trace_width_calculator(5,2,0,6.6,8));
+  TEST_ASSERT_NOT_EQUAL(0, internal_trace_width_calculator(8,2.36,1.5,6.6,8));
+}
+
 /* Start of the application test */
 int main()
 {
@@ -237,6 +253,10 @@ int main()
   RUN_TEST(testohm_c);
   RUN_TEST(testohm_r);
 
+
+  // tanmaya's test cases
+  RUN_TEST(test_trace_width_external);
+  RUN_TEST(test_trace_width_internal);
 
   /* Close the Unity Test Framework */
   return UNITY_END();

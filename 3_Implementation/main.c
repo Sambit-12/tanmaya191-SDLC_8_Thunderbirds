@@ -97,7 +97,7 @@ int main()
         case 11:
         {
             printf("--------------------------------------PCB trace width-----------------------------\n");
-            trace_width_calculator();
+            trace_width_inputs();
             break;
         }
         case 12: 

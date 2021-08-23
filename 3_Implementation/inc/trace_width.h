@@ -11,6 +11,8 @@
     #define external_k 0.048
     #define external_b 0.44
     #define external_c 0.725
-    int trace_width_calculator();
+    double trace_width_inputs();
+    double internal_trace_width_calculator(double current,double thickness, double temperature_rise,double ambient_temperature,double trace_length);
+    double external_trace_width_calculator(double current,double thickness, double temperature_rise,double ambient_temperature,double trace_length);
 
     #endif
