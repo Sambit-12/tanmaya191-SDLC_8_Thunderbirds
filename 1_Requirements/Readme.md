@@ -9,10 +9,16 @@ In this project, a new system is designed to perform various electrical and elec
 *	In electronics, Ohm’s law is vitally important to describe the circuits, as it relates voltage to the current with the resistance value.
 *	This law was derived by the German Physicist, George Simon Ohm.
 *  Ohm’s law is used to maintain the desired voltage drop across the electronic components and it is used in DC ammeter and other DC shunts to divert the current. Its application also ranges from household appliances to massive projects.
-### Equivalent resistance of n parallel resistors
-*  Resistors are in parallel if their terminals are connected to the same two nodes.
-*	The equivalent overall resistance is smaller than the smallest parallel resistor. 
-*	The equivalent parallel resistor is the reciprocal of the sum of reciprocals
+
+### Kirchoff’s Current Law (KCL)
+* It is first Kirchoff’s law that deals with the conservation of charge.
+* The law states that total current entering a junction or node is exactly equal to the charge leaving the node as it has no place to go except to leave, as no charge is lost within the node.
+
+### Kirchoff’s Voltage law (KVL)
+* It is the second law that deals with the conservation of energy around a closed circuit path.
+* It states that for a closed loop series path the algebraic sum of all the voltages around any closed loop in a circuit is equal to zero.
+* It is used for voltage measurement in circuits.
+
 ### Duty cycle
 *	Duty cycle is the ratio of time a load or circuit is ON compared to the time the load or circuit is OFF.
 *	It is expressed as a percentage of ON time.
@@ -61,8 +67,18 @@ In this project, a new system is designed to perform various electrical and elec
 *	Voltage drop within the cable is within the permissible limits so that the functionality of the connected load by the cable remains unaffected
 
 ### Equivalent Capacitance and Inductance of Circuits
-*   The equivalent  capacitance and inductance of a circuit can be calculated by their equivalent formulas
+*   The equivalent capacitance and inductance of a circuit can be calculated by their equivalent formulas
 *   Passive components in parallel and series circuits add up in ratios relating to their properties
+
+### Tensile strength
+* Tensile strength is the amount of load or stress that can be handled by a material before it stretches and breaks.
+* It is the material’s resistance to tension that is caused by mechanical loads applied to the material.
+* It measures the force required to pull something such as rope, wire or a structural beam to the point where it breaks.
+
+### Circular Convolution
+* Circular convolution is a special case of periodic convolution, which is the convolution of two periodic functions that have the same period.
+* It is the mathematical way of combining two signals to form a third signal.
+* Linear Convolution is the basic operation to calculate the output for any linear time invariant system. Circular convolution is the same thing but considering that the support of the signal is periodic.
 
 
 ## Cost and Features
