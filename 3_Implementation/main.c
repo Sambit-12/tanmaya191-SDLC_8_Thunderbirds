@@ -3,7 +3,7 @@
 #include "inc/halfsubtractor.h"
 #include "inc/DutyCycle.h"
 #include "inc/project.h"
-#include "trace_width.h"
+#include "inc/trace_width.h"
 int main()
 
 

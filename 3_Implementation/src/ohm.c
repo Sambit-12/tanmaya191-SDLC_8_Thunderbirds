@@ -59,9 +59,9 @@ float ohm()
     {
         float voltage, current;
         printf("\n Enter the voltage value : ");
-        scanf("%d",&voltage);
+        scanf("%f",&voltage);
         printf("\n Enter the current value : ");
-        scanf("%d",&current);
+        scanf("%f",&current);
         printf("Resistance : %f",ohm_r(voltage,current));
     }
     // Printing a default message for invalid options
