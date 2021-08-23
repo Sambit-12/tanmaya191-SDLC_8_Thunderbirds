@@ -1,5 +1,5 @@
 /**
- * @file conversion.h
+ * @file Thunderbirds.h
  * @author Sangeetha Nambiraj
  * @brief 
  * @version 0.1
@@ -10,5 +10,5 @@
  */
 #ifndef __CONVERSION_H__
 #define __CONVERSION_H__
-void starDeltaConversion();
+int starDeltaConversion(int);
 #endif
