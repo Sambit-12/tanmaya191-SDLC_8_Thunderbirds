@@ -7,6 +7,7 @@
 #include "inc/trace_width.h"
 #include "inc/DutyCycle.h"
 #include "inc/CircularConvolution.h"
+#include "regg.h"
 int main()
 {
     int num;
