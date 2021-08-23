@@ -5,6 +5,8 @@
 ### System is designed to perform various electrical and electronics calculations.
 
 ![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
+![electrical and electronics calculations](https://user-images.githubusercontent.com/86049636/130387592-5ae0d552-76d0-4f94-bff7-ad5827d9355f.png)
+
 
 
 
