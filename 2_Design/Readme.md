@@ -7,12 +7,12 @@
 
 ### High Level Design 
                        
-![HighLevelStructuralDiagram](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/f46f1f6734cf9794d11a54c816e8fe5aaf05e210/High%20Level.png)
+![HighLevelStructuralDiagram](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/72514a10e3f4070808e3a5df60d6e3d15e8b6a9d/High%20level.jpg)
 
 
 ### Low Level Design 
 
-![FeaturesLevelStructuralDiagram](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/f46f1f6734cf9794d11a54c816e8fe5aaf05e210/Low%20level.png)
+![FeaturesLevelStructuralDiagram](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/72514a10e3f4070808e3a5df60d6e3d15e8b6a9d/Low%20level.jpg)
 
 
 ## Application 2 - How to Select Multi and Single core Wires.
