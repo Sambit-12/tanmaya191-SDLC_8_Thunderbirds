@@ -10,9 +10,9 @@
 
 
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
-[![C/C++ CI](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/action/workflows/cppcheck.yml)| [![Unity - Unit Testing](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/unity.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gitinspector.yml)
+Build | Code Quality | Unity | Git Inspector | Code Coverage | Valgrind
+------|----------|-------|--------------|--------------|---------
+[![C/C++ CI](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/action/workflows/cppcheck.yml)| [![Unity - Unit Testing](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/unity.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/unity.yml)| [![Git Inspector](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gitinspector.yml) | [![CI-Coverage](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gcov.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/gcov.yml) | [![Valgrind](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/actions/workflows/Valgrind.yml)
 
 
 ## Folder Structure
