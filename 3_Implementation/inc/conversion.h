@@ -10,5 +10,5 @@
  */
 #ifndef __CONVERSION_H__
 #define __CONVERSION_H__
-int starDeltaConversion(int);
+int starDeltaConversion();
 #endif
