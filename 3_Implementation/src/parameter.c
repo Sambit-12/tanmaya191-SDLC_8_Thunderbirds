@@ -13,7 +13,6 @@ int Parameter_s()
 {
 
    int ch;
-  
    printf("\n1.power_input");
    printf("\n2.power_output");
    printf("\n3.resistance");
@@ -21,18 +20,53 @@ int Parameter_s()
    printf("\n5.speed");
    printf("\n6.torque");
    printf("\n7.secondary_turns");
-   printf("\n8.Half adder");
-   printf("\n9.Half subtractor");
-   printf("\n10.Duty Cycle or Voltage of Output Waveform");
-   printf("\n11.Ohm's Law");
-   printf("\n12.Tensile Strength");
-   printf("\n13.Kirchoff's Voltage Law");
-   printf("\n14.Kirchoff's Current Law");
-   printf("\n15.Single-core");
-   printf("\n16.Multi-core");
-   printf("\n17.PCB Trace width calculator");
-   printf("\nEnter your choice:");
+   printf("\n Enter the parameter: ");
+   scanf("%d",&ch);
+   switch (ch)
+        {
+            int a,b,c,result;
+            case 1:
+            printf("Enter the value of voltage and current: \n");
+            scanf("%d %d",&a,&b);
+            result = power_input(a,b);
+            printf("The Input Power of the machine is : %d", result);
+            break;
+            case 2:
+            printf("Enter the value of voltage and current: \n");
+            scanf("%d %d",&a,&b);
+            result = power_output(a,b);
+            printf("The Output Power of the machine is : %d", result);
+            break;
+            case 3:
+            printf("Enter the value of voltage and current: \n");
+            scanf("%d %d",&a,&b);
+            result = resistance(a,b);
+            printf("The Resistance of the machine is : %d", result);
+            break;
+            case 4:
+            printf("Enter the value of N-turns and current : \n");
+            scanf("%d %d",&a,&b);
+            result = freq(a,b);
+            printf("The Frequency of the machine is : %d", result);
+            break;
+            case 5:
+            printf("\nEnter the value of Freq and Poles :\n");
+            scanf("%d %d",&a,&b);
+            result = speed(a,b);
+            printf("The Speed of the machine is : %d", result);
+            break;
+            case 6:
+            printf("Enter the value of Force and radius :\n");
+            scanf("%d %d",&a,&b);
+            result = torque(a,b);
+            printf("The Torque of the machine is : %d", result);
+            break;
+            case 7:
+            printf("Enter the value of Turn_primary, V1 and V2 :\n");
+            scanf("%d %d %d",&a,&b,&c);
+            result = secondary_turns(a,b,c);
+            printf("The Secondary side turn of Transformer : %d", result);
+            break;
+        }
 
-   scanf("%d", &ch);
-   return (ch);
 }
