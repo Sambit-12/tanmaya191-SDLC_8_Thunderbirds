@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "resistance_calculator.h"
 
 //void getResistorValue(char colorCode[], int colorValue[]);
 void getColorCode(char colorCode[])
