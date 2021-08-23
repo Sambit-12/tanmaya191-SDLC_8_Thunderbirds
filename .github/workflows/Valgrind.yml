@@ -20,4 +20,4 @@ jobs:
     - name: make run
       run: |
         make run -C 3_Implementation/
-        valgrind ./3_Implementation/Thunderbirds.out
+        valgrind ./3_Implementation/Test_Thunderbirds.out
