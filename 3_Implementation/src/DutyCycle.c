@@ -43,7 +43,7 @@ int Parameter_sambit()
         return Output_voltage;
     }
     //Main function For taking the values in terms of Variable and Display the desired output//
- int Sambit()
+ int Sambit_Dutycycle()
         {
             float result, a ,b;
             switch (Parameter_sambit()){
