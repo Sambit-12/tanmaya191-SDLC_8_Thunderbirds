@@ -48,8 +48,8 @@ test/unity.c\
 
 
 INC = \
--Iinc \
--Itest \
+inc \
+test \
 
 TEST_INC = \
 test\
