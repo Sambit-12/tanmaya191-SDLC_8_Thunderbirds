@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "../inc/regg.h"
 
 
 long getResistorValue( char colorCode[], int colorValue[], int r_value )
