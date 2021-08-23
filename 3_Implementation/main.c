@@ -7,7 +7,7 @@
 #include "inc/trace_width.h"
 #include "inc/DutyCycle.h"
 #include "inc/CircularConvolution.h"
-#include "regg.h"
+#include "resistance_calculator.h"
 int main()
 {
     int num;
@@ -120,15 +120,9 @@ int main()
         }
        case 15:
         {
-            char a[10];
+            
             printf("-------------------------------------Resistor Colour code------------------------------\n");
-            scanf("%c",&a[10]);
-            int x,y;
-            scanf("%d %d",&x,&y);
-            getColorCode(a[10]);
-            char result=  getResistorValue(a, x, y);
-            printf("\nThe resistor with color code %c %c %c %c has a value of %d Ohms.\n",
-            a[0], a[1], a[2], a[3], y);
+            resistance_calculator_paras();
             break;
         }
         case 16:
