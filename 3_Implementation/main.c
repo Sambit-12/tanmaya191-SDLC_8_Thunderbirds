@@ -13,7 +13,7 @@ int main()
    int num;
     printf("------------------------------------WELCOME-------------------------------------\n");
     printf("Select the type of calculation\n");
-    printf("1. Motor parameters\n2. Cable\n3. Star and Delta Conversions\n4. Laws\n5. Tensile strength\n6. Duty cycle\n7. Adders_Subtractors\n8. PCB Trace width\n9. Division");
+    printf("1. Motor parameters\n2. Wire Selection\n3. Star and Delta Conversions\n4. Laws\n5. Tensile strength\n6. Duty cycle\n7. Adders_Subtractors\n8. PCB Trace width\n9. Division");
     printf("Type : ");
     scanf("%d",&num);
     int x,no;
@@ -30,9 +30,9 @@ int main()
         Factor_s();
         break;
         case 3:
-            printf("<-------------------------------------------Star and Delta Conversion------------------------------------------>\n");
-            starDeltaConversion();
-            break;
+        printf("<-------------------------------------------Star and Delta Conversion------------------------------------------>\n");
+        starDeltaConversion();
+        break;
         case 4:
             printf("<------------------------------------------Basic laws---------------------------------------------\n");
             scanf("%d",&no);
