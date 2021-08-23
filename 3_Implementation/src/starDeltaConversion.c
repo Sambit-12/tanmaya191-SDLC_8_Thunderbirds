@@ -8,9 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "conversion.h"
 #include<stdio.h>
-int starDeltaConversion(int comp)
+int starDeltaConversion()
 {
 struct Star_circuit_resistors
 {
@@ -48,6 +47,12 @@ struct Delta_circuit_capacitors
     float C_b;
     float C_c;
 }cap_a,cap_b,cap_c;
+
+int comp;
+printf("Select the component required\n-----------------------------------\n");
+            printf("1-Resistor\n2-Inductor\n3-Capacitor");
+            printf("\nSelect the component: ");
+            scanf("%d",&comp);
 if(comp==1) 
 //Check the required component is resistor
 {
