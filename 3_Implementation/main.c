@@ -72,6 +72,14 @@ int main()
             printf("---------------------------------------Division-------------------------------------\n");
             division();
             break;
+       case 10:
+          printf("----------------------series-----------------------\n");
+          series();
+          break;
+       case 11:
+          printf("----------------------parallel---------------------\n");
+          parallel();
+          break;
    }
    return 0;
 
