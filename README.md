@@ -29,7 +29,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------|----------------|----------------|---------------|-------------|--------------
 99005705 | Shashank Bhati  | Find Machine parameters and selection of Wires   | 1     | 1  | 8   | 8     
 99005739 | Tanmaya Prasad Mangaraj  | PCB Trace width calculation   | 1     | 1  | 8   | 8  
-99005756 | Sambit Nayak             | Calculation for Duty Cycle and output Voltge of the waveform| 0| 0| 2|2
+99005756 | Sambit Nayak             | Calculation for Duty Cycle and output Voltage of the waveform| 0| 0| 2|2
 99005756 | Sambit Nayak             | Half Adder and Half Subtractor Display                      | 0| 0| 4| 4
 `DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
 
