@@ -118,14 +118,19 @@ int main()
             series();
             break;
         }
-        case 15:
+       case 15:
         {
+            char a[10];
             printf("-------------------------------------Resistor Colour code------------------------------\n");
-            getColorCode(colorCode);
-             r_value =  getResistorValue(colorCode, colorValue, r_value);
-             printf("\n\nThe resistor with color code %c %c %c %c has a value of %d Ohms.\n",colorCode[0], colorCode[1], colorCode[2], colorCode[3], r_value);
-             break;
-    }
+            scanf("%c",&a[10]);
+            int x,y;
+            scanf("%d %d",&x,&y);
+            getColorCode(a[10]);
+            char result=  getResistorValue(a, x, y);
+            printf("\nThe resistor with color code %c %c %c %c has a value of %d Ohms.\n",
+            a[0], a[1], a[2], a[3], y);
+            break;
+        }
         case 16:
         {
             printf("----------------------------------------Circular Convolution-----------------------------\n");
