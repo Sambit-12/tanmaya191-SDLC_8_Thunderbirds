@@ -24,7 +24,7 @@ src/trace_width.c\
 src/starDeltaConversion.c\
 src/division.c\
 src/CircularConvolution.c\
-src/getResistorValue.C
+src/resistance_calculator.c
 
 
 
