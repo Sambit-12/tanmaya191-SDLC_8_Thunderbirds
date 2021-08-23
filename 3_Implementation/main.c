@@ -79,7 +79,7 @@ int main()
         case 8:
         {
             printf("-----------------------------------------------DutyCycle---------------------------------\n");
-            Sambit();
+            Sambit_Dutycycle();
             break;
         }
         case 9:
