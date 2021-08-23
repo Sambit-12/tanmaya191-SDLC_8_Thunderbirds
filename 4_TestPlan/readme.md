@@ -4,9 +4,8 @@
 
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  H_01       | Circuit Calculator passive element parameters | Success | Success | Success | Requirement based |
-|  H_02       | Circuit Calculator passive element parameters | Success | Success | Success | Scenario based    |
-|  H_03       | Circuit Calculator passive element parameters | Success | Success | Success | Boundary based    |
+|  H_01       | Circuit Calculator passive element parameters | Success | Success | Success | Application based |
+
 
 ## Table no: Low level test plan
 
