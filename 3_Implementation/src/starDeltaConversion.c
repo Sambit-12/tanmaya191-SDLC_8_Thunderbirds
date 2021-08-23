@@ -1,21 +1,17 @@
 /**
  * @file starDeltaConversion.c
- * @author Sangeetha Nambiraj
+ * @author Sangeetha nambiraj
  * @brief 
  * @version 0.1
- * @date 2021-08-21
+ * @date 2021-08-23
  * 
  * @copyright Copyright (c) 2021
  * 
  */
-
-#include "../inc/conversion.h"
+#include "conversion.h"
 #include<stdio.h>
-void starDeltaConversion()
+int starDeltaConversion(int comp)
 {
-    printf("Select the component required\n-----------------------------------\n");
-            printf("R-Resistor\nL-Inductor\nC-Capacitor");
-            printf("\nSelect the component: ");
 struct Star_circuit_resistors
 {
     float R_1;
@@ -52,9 +48,7 @@ struct Delta_circuit_capacitors
     float C_b;
     float C_c;
 }cap_a,cap_b,cap_c;
-char comp;
-scanf("%c",&comp);
-if(comp=='R') 
+if(comp==1) 
 //Check the required component is resistor
 {
 int c;
@@ -62,6 +56,7 @@ printf("Select the transformation\n---------------------------------------\n");
 printf("1.Star-->Delta conversion\n2.Delta-->Star conversion\n-------------------------\n");
 printf("The transformation is: ");
 scanf("%d",&c);
+// Get the transformation type from the user
 switch(c)
 {
     case 1: 
@@ -98,7 +93,7 @@ switch(c)
         printf("Enter valid option");
 }
 }
-else if(comp=='L')
+else if(comp==2)
 //Check the required component is inductor
 {
 int c;
@@ -143,7 +138,7 @@ switch(c)
         printf("Enter valid option");
 }
 }
-else if(comp=='C')
+else if(comp==3)
 //Check the required component is capacitor
 {
 int c;
