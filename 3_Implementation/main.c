@@ -31,7 +31,7 @@ int main()
     printf("16. Circular convolution\n");
     printf("Type : ");
     scanf("%d",&num);
-    int x,no;
+   
     switch(num)
     {
         case 1:
@@ -127,8 +127,9 @@ int main()
              colorCode[0], colorCode[1], colorCode[2], colorCode[3], r_value);
         }
 
-        }
+        
         break;
+    }
         case 16:
         {
             printf("----------------------------------------Circular Convolution-----------------------------\n");
