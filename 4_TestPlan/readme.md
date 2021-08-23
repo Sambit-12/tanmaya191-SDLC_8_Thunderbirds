@@ -16,7 +16,6 @@
 
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-
 |  L_01       | Calculate the Different Machine Parameters | Success | Success | Success | Requirement based |
 |  L_02       | Calculate the Different Machine Parameters | Success | Success | Success | Scenario based    |
 |  L_03       | Calculate the Different Machine Parameters | Success | Success | Success | Boundary based    |
