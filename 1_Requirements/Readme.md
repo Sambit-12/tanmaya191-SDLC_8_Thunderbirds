@@ -60,6 +60,10 @@ In this project, a new system is designed to perform various electrical and elec
 *	Area of cross-section of the conductor shall be sized to carry estimated load current continuously such that the temperature rise of the conductor is within the acceptable limits for the installation conditions foreseen
 *	Voltage drop within the cable is within the permissible limits so that the functionality of the connected load by the cable remains unaffected
 
+### Equivalent Capacitance and Inductance of Circuits
+*   The equivalent  capacitance and inductance of a circuit can be calculated by their equivalent formulas
+*   Passive components in parallel and series circuits add up in ratios relating to their properties
+
 
 ## Cost and Features
 *	This system saves a lot of time for the user and results in quick and accurate manner.
