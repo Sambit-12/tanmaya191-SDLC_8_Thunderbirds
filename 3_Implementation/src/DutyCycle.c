@@ -58,8 +58,10 @@ int Parameter_sambit()
               
 
            case 2:
-           
+            printf("Note That Duty Cycle is a Ratio so its Value should be less than 1: \n");
             printf("Enter the Value of D (Duty cycle): \n");
+            printf("Enter the Value of of Input Voltage (V0): \n");
+
             scanf("%f %f",&a,&b);
             result=VoltageOutputofDutyCycle(a,b);
             printf("Voltage output of the waveform is:%f\n",result);
