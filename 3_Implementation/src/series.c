@@ -49,6 +49,7 @@ double series_inductance(int number_of_inductors, double inductor[])
    }
 
    return series_equivalent_inductor;
+}
 
 /**
  * @brief
