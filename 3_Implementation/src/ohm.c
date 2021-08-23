@@ -5,24 +5,45 @@
 float ohm_v(float current, float resistance)
 {
     float voltage;
-    voltage = current*resistance;
-    return voltage;
+    if (current>0&&resistance>0)
+    {
+        voltage = current*resistance;
+        return voltage;
+    }
+    else
+    {
+    return -1;
+    }
 }
 
 //Function defenition for finding current using ohm's law
 float ohm_c(float voltage, float resistance)
 {
     float current;
-    current = voltage/resistance;
-    return(current);
+    if (voltage>0&&resistance>0)
+    {
+        current = voltage/resistance;
+        return(current);
+    }
+    else
+    {
+    return -1;
+    }
 }
 
 //Function defenition for finding resistance using ohm's law
 float ohm_r(float voltage, float current)
 {
     float resistance;
-    resistance = voltage/current;
-    return(resistance);
+    if (voltage>0&&current>0)
+    {
+        resistance = voltage/current;
+        return(resistance);
+    }
+    else
+    {
+        return -1;
+    }   
 }
 
 //initialization parameters in ohm's law

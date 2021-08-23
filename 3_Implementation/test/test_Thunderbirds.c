@@ -15,6 +15,7 @@
 #include "halfadder.h"
 #include "halfsubtractor.h"
 #include "DutyCycle.h"
+#include "project.h"
 
 /// Required by the unity test framework 
 void setUp(){}
@@ -42,6 +43,12 @@ void test_halfsub1(void);
 void test_halfsub2(void);
 void test_Dutycycle(void);
 void test_VoltageOutputofDutyCycle(void);
+
+void testohm_v(void);
+void testohm_c(void);
+void testohm_r(void);
+
+
 
 
 
@@ -163,6 +170,40 @@ void test_VoltageOutputofDutyCycle(void)
   //To check the output voltage by putting Duty cycle as 5 and input voltage as 1
 }
 
+void testohm_v(void)
+{
+    
+    TEST_ASSERT_EQUAL(7.68, ohm_v(2.4, 3.2));
+    TEST_ASSERT_NOT_EQUAL(1.9, ohm_v(2.4, 3.2)); 
+
+    
+    TEST_ASSERT_EQUAL(-1.00, ohm_v(-1, 3));
+    TEST_ASSERT_NOT_EQUAL(1.9, ohm_v(-1, 3));
+
+}
+
+void testohm_c(void)
+{
+    
+    TEST_ASSERT_EQUAL(2.33, ohm_c(5.6, 2.4));
+    TEST_ASSERT_NOT_EQUAL(1.9, ohm_c(5.6, 2.4));
+
+    
+    TEST_ASSERT_EQUAL(-1.00, ohm_c(5.6, -1));
+    TEST_ASSERT_NOT_EQUAL(1.9, ohm_c(5.6, -1));
+}
+
+void testohm_r(void)
+{
+    
+    TEST_ASSERT_EQUAL(3.1, ohm_r(6.5, 2.1));
+    TEST_ASSERT_NOT_EQUAL(1.9, ohm_r(6.5, 2.1));
+
+    
+    TEST_ASSERT_EQUAL(-1.00, ohm_r(-1, 2.1));
+    TEST_ASSERT_NOT_EQUAL(1.9, ohm_r(-1, 2.1));  
+}
+
 /* Start of the application test */
 int main()
 {
@@ -190,6 +231,12 @@ int main()
   RUN_TEST(test_halfsub2);
   RUN_TEST(test_Dutycycle);
   RUN_TEST(test_VoltageOutputofDutyCycle);
+
+
+  RUN_TEST(testohm_v);
+  RUN_TEST(testohm_c);
+  RUN_TEST(testohm_r);
+
 
   /* Close the Unity Test Framework */
   return UNITY_END();
