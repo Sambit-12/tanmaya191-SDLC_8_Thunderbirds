@@ -7,7 +7,7 @@
 #include "inc/trace_width.h"
 #include "inc/DutyCycle.h"
 #include "inc/CircularConvolution.h"
-#include "resistance_calculator.h"
+#include "inc/resistance_calculator.h"
 int main()
 {
     int num;
@@ -15,16 +15,16 @@ int main()
     printf("Select the type of calculation\n");
     printf("1. Motor parameters\n");
     printf("2. Cable\n");
-    printf("3. Star Delta Conversion");
+    printf("3. Star Delta Conversion\n");
     printf("4. Ohms law\n");
     printf("5. KVL\n");
     printf("6. KCL\n");
-    printf("7. Tensile calci\n");
+    printf("7. Tensile calculator\n");
     printf("8. Dutycycle\n");
     printf("9. Adder\n");
     printf("10. Subtractor\n");
     printf("11. PCB Trace Width\n");
-    printf("12.Division\n");
+    printf("12. Division\n");
     printf("13. Paralle\n");
     printf("14. Series\n");
     printf("15. Resistor colour code\n");
