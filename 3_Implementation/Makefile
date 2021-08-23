@@ -2,7 +2,6 @@ PROJ_NAME = Thunderbirds
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 SRC = src/freq.c\
-src/login.c\
 src/parameter.c\
 src/power_input.c\
 src/power_output.c\
@@ -10,7 +9,6 @@ src/resistance.c\
 src/secondary_turns.c\
 src/speed.c\
 src/torque.c\
-src/title.c\
 src/Load_current.c\
 src/Factor_s.c\
 src/parallel.c\
@@ -22,7 +20,9 @@ src/kvl.c\
 src/kcl.c\
 src/ohm.c\
 src/tensiles.c\
-src/trace_width.c
+src/trace_width.c\
+src/starDeltaConversion.c\
+src/division.c\
 
 
 
@@ -51,18 +51,18 @@ endif
 .PHONY: run clean test doc all
 
 all:
-	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC))
+	gcc -I $(INC_H) $(SRC) main.c -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 	
 run:
 	$(call FixPath,$(PROJ_NAME).$(EXEC))
 test:
-	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
-	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC))
+	gcc -I $(INC_H) -I $(INC_T) $(TEST_SRC) $(SRC) -o $(call FixPath,$(TEST_PROJ_NAME).$(EXEC)) -lm
+	./$(call FixPath,$(TEST_PROJ_NAME).$(EXEC)) 
 
 coverage:
 	cp test/test_Thunderbirds.c .
-	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test/test_Thunderbirds.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
-	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC))
+	gcc -fprofile-arcs -ftest-coverage -I $(INC_H) -I $(INC_T) unity/unity.c test/test_Thunderbirds.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
+	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC)) 
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
 	$(RM) *.gcda

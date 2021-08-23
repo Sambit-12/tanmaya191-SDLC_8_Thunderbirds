@@ -63,3 +63,13 @@
 ### Low Level Design 
 
 ![FeaturesLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/Mywork/main/LL%20UML%20DIAGRAM%20for%20Half%20Adder%20and%20Subtractor.jpg)
+
+## Application 6 - Star and Delta conversions
+
+### Architecture
+
+![architecture](https://user-images.githubusercontent.com/67622262/130360992-a39de1fa-308e-4502-99bb-e98f9d94c5cf.png)
+
+### Usecase Diagram
+
+![usecase](https://user-images.githubusercontent.com/67622262/130361011-7f9cd65a-98f2-461d-9216-59eff6700ff3.png)

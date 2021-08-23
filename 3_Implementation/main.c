@@ -1,243 +1,115 @@
 #include "inc/Thunderbirds.h"
+#include "inc/conversion.h"
 #include "inc/halfadder.h"
 #include "inc/halfsubtractor.h"
-#include "inc/DutyCycle.h"
 #include "inc/project.h"
+#include "inc/division.h"
 #include "inc/trace_width.h"
+#include "inc/DutyCycle.h"
 int main()
-
-
 {
-   Welcome_screen();
-
-
-   
-   int  a ,b ,c,result,Power,Voltage;
-
-   switch (Parameter_s())
-
-   {
-
-   case 1:
-      {
-         
-      printf("Enter the value of voltage and current: \n");
-      scanf("%d %d",&a,&b);
-      result = power_input(a,b);
-      printf("The Input Power of the machine is : %d", result);
-      break;
-      }
-
-   case 2:
-   {
-      
-      printf("Enter the value of voltage and current: \n");
-      scanf("%d %d",&a,&b);
-      result = power_output(a,b);
-      printf("The Output Power of the machine is : %d", result);
-
-      break;
-   }
-   case 3:
-   {
-      printf("Enter the value of voltage and current: \n");
-      scanf("%d %d",&a,&b);
-      result = resistance(a,b);
-      printf("The Resistance of the machine is : %d", result);
-
-      break;
-   }
-   case 4:
-   {  
-      printf("Enter the value of N-turns and current : \n");
-      scanf("%d %d",&a,&b);
-      result = freq(a,b);
-      printf("The Frequency of the machine is : %d", result);
-
-      break;
-   }
-   case 5:
-   {
-      printf("\nEnter the value of Freq and Poles :\n");
-      scanf("%d %d",&a,&b);
-      result = speed(a,b);
-      printf("The Speed of the machine is : %d", result);
-      break;
-   }
-   case 6:
-   {
-       printf("Enter the value of Force and radius :\n");
-      scanf("%d %d",&a,&b);
-      result = torque(a,b);
-      printf("The Torque of the machine is : %d", result);
-      break;
-   }
-   case 7:
-   {
-        
-      printf("Enter the value of Turn_primary, V1 and V2 :\n");
-      scanf("%d %d %d",&a,&b,&c);
-      result = secondary_turns(a,b,c);
-      printf("The Secondary side turn of Transformer : %d", result);
-      break;
-   }
-    // Sambit's code
-   case 8:
-   {
-       adder();
-       break;
-   }
-
-   case 9:
-   {
-       subtractor();
-       break;
-   }
-
-   case 10:
-   {
-       Sambit();
-       break;
-   }
-    case 11:
+    int num;
+    printf("------------------------------------WELCOME-------------------------------------\n");
+    printf("Select the type of calculation\n");
+    printf("1. Motor parameters\n2. Cable\n3. Star and Delta Conversions\n4. Laws\n5. Tensile strength\n6. Duty cycle\n7. Adders_Subtractors\n8. PCB Trace width\n9. Division\n10. Series and parallel\n11. Resistor Colour code\n");
+    printf("Type : ");
+    scanf("%d",&num);
+    int x,no,a;
+    switch(num)
     {
-    ohm(); 
-    break;
-    }
-
-    // Case for performing tensile strength calculation
-    case 12:
-    {
-    tscalci();
-    break;
-    }
-
-    // Case for performing Kirchoff's voltage law
-    case 13:
-    {
-    kvl();
-    break;
-    }
-
-    // Case for performing Kirchoff's Current law
-    case 14:
-    {
-    kcl(); 
-    break;
-    }    
-    
-    case 15:
+        case 1:
         {
-            printf("+++If the volage is in range of 120-220 for domestic purposes+++\n");
-            printf("Enter the value of Power and Voltage\n");
-            scanf("%d %d",&Power,&Voltage);
-            result = load_current(Power,Voltage);
-            printf("The seletion of wire on the bases of Load_current =  %d \n",result);
-            
-             if (result == 11)
-             {
-                 printf("The number and diameter of the wire = 1/0.044 ");
-                 printf("The Cross-section of the wire = 0.0015 ");
-             }
-             else if (result == 13)
-             {
-                 printf("The number and diameter of the wire = 3/0.029 ");
-                 printf("The Cross-section of the wire = 0.002 ");
-             }
-             else if (result == 16)
-             {
-                 printf("The number and diameter of the wire = 3/0.034 ");
-                 printf("The Cross-section of the wire = 0.003 ");
-
-             }
-             else if (result == 21)
-             {
-                 printf("The number and diameter of the wire = 7/0.029");
-                 printf("The Cross-section of the wire = 0.0045 ");
-
-             }
-              else if (result == 28)
-             {
-                 printf("The number and diameter of the wire = 7/0.036 ");
-                 printf("The Cross-section of the wire = 0.007 ");
-
-             }
-              else if (result == 34)
-             {
-                 printf("The number and diameter of the wire = 7/0.044 ");
-                 printf("The Cross-section of the wire = 0.01 ");
-
-             }
-             else
-             {
-                 printf("The Load current is high so use the case 2 for industrial purposes");
-             }
-             break;
-
-
-
+            printf("<------------------------------Motor Parameters--------------------------------->\n");
+            Parameter_s();
+            break;
         }
-    case 16:
+        case 2:
         {
-            printf("+++If the volage is in range of 420-440 for industrial purposes+++\n");
-            printf("Enter the value of Power and Voltage\n");
-            scanf("%d %d",&Power,&Voltage);
-            result = load_current(Power,Voltage);
-            printf("The seletion of wire on the bases of Load_current =  %d \n",result);
-             if (result == 43)
-             {
-                 printf("The number and diameter of the wire = 7/0.052 ");
-                 printf("The Cross-section of the wire = 0.145 ");
-             }
-             else if (result == 56)
-             {
-                 printf("The number and diameter of the wire = 7/0.064 ");
-                 printf("The Cross-section of the wire = 0.0225 ");
-             }
-             else if (result == 66)
-             {
-                 printf("The number and diameter of the wire = 19/0.044 ");
-                 printf("The Cross-section of the wire = 0.03 ");
-
-             }
-             else if (result == 77)
-             {
-                 printf("The number and diameter of the wire = 19/0.044 ");
-                 printf("The Cross-section of the wire = 0.04 ");
-
-             }
-              else if (result == 89)
-             {
-                 printf("The number and diameter of the wire = 19/0.054 ");
-                 printf("The Cross-section of the wire = 0.05 ");
-
-             }
-              else if (result == 105)
-             {
-                 printf("The number and diameter of the wire = 19/0.064 ");
-                 printf("The Cross-section of the wire = 0.06 ");
-
-             }
-             else
-             {
-                 printf("The load is too high such wire are not avalable in marke ");
-             }
-             break;
-
-      default:
-      {
-      printf("wrong choice : \n");
-      break;
-      }
-   }
-   
-   //tanmaya's code
-   case 17:
-   {
-       trace_width_calculator();
-       break;
+            printf("----------------------------------Wire selection-------------------------------\n");
+            Factor_s();
+            break;
+        }
+        case 3:
+        {
+            printf("<-------------------------------------------Star and Delta Conversion------------------------------------------>\n");
+            printf("Select the component required\n-----------------------------------\n");
+            printf("1-Resistor\n2-Inductor\n3-Capacitor");
+            printf("\nSelect the component: ");
+            scanf("%d",&a);
+            starDeltaConversion(a);
+            break;
+        }
+        case 4:
+        {
+            printf("<------------------------------------------Basic laws---------------------------------------------\n");
+            scanf("%d",&no);
+            if(no==1)
+            ohm();
+            else if(no=2)
+            kvl();
+            else if(no=3)
+            kcl();
+            else
+            printf("Invalid");
+            break;
+            break;
+        }
+        case 5:
+        {
+            printf("------------------------------------------------tensileCalci----------------------------------\n");
+            tscalci();
+            break;
+        }
+        case 6:
+        {
+            printf("-----------------------------------------------DutyCycle---------------------------------\n");
+            Sambit();
+            break;
+        }
+        case 7:
+        {
+            printf("------------------------------Adder and Subtractor---------------------------------\n");
+            scanf("%d",&x);
+            if(x==1)
+            adder();
+            else if(x==2)
+            subtractor();
+            else
+            printf("Invalid");
+            break;
+        }
+        case 8:
+        {
+            printf("--------------------------------------PCB trace width-----------------------------\n");
+            trace_width_calculator();
+            break;
+        }
+        case 9: 
+        {
+            printf("---------------------------------------Division-------------------------------------\n");
+            division();
+            break;
+        }
+        case 10:
+        {
+            printf("---------------------------------------Series and Parallel---------------------------\n");
+            int a;
+            scanf("%d",&a);
+            if(a==1)
+            series();
+            else if(a==2)
+            parallel();
+            else
+            printf("Invalid");
+        }
+        break;
+        case 11:
+        {
+            printf("-------------------------------------Resistor Colour code------------------------------\n");
+        }
+        break;
+        default:
+        printf("Enter valid option");
    }
    return 0;
 }
-
-   }

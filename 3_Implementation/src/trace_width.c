@@ -9,6 +9,7 @@
  * 
  */
 #include "trace_width.h"
+#include <math.h>
 /**
  * @brief trace width calculator
  * 
