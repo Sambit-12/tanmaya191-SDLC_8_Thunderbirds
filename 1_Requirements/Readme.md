@@ -154,6 +154,6 @@ In this project, a new system is designed to perform various electrical and elec
 | LA13 | Calculating Speed, Torque of Motor/Generator  | HA09|To be implemented|
 | LA14 | Input of 4 Sequence Given 0 0, 0 1, 1 0, 11 For Half Adder |HA10|To be implemented|
 | LA15 | Performing XOR and AND Operation in all the 4 Sequence 0 0, 0 1, 1 0, 11 to get Half Adder Result | HA10 | To be implemented|
-| LA16 | Input of 4 Sequence Given 0 0, 0 1, 1 0, 11 For Half Subtractor |HA11|To be implemented|
-| LA17 | Performing XOR and (!)Not oepration with  AND Operation combined to all the 4 Sequence 0 0, 0 1, 1 0, 11 to get Half Subtractor Result | HA11 | To be implemented|
+| LA16 | Input of 4 Sequence Given 0 0, 0 1, 1 0, 1 1 For Half Subtractor |HA11|To be implemented|
+| LA17 | Performing XOR and (!)Not operation with  AND Operation combined to all the 4 Sequence 0 0, 0 1, 1 0, 11 to get Half Subtractor Result | HA11 | To be implemented|
 | LA18 | Calculating LC in series and parallel | HA12 | Implemented |
