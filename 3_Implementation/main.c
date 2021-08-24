@@ -13,22 +13,22 @@ int main()
     int num;
     printf("------------------------------------WELCOME-------------------------------------\n");
     printf("Select the type of calculation\n");
-    printf("1. Motor parameters\n");
-    printf("2. Cable\n");
-    printf("3. Star Delta Conversion\n");
-    printf("4. Ohms law\n");
-    printf("5. KVL\n");
-    printf("6. KCL\n");
-    printf("7. Tensile calculator\n");
-    printf("8. Dutycycle\n");
-    printf("9. Adder\n");
-    printf("10. Subtractor\n");
-    printf("11. PCB Trace Width\n");
-    printf("12. Division\n");
-    printf("13. Paralle\n");
-    printf("14. Series\n");
-    printf("15. Resistor colour code\n");
-    printf("16. Circular convolution\n");
+    printf("1. Motor parameters\n");  // Shashank
+    printf("2. Wire Selection\n");   // Shashank
+    printf("3. Star Delta Conversion\n");   // Sangeetha
+    printf("4. Ohms law\n");    //Viswak
+    printf("5. KVL\n"); //Viswak
+    printf("6. KCL\n"); //Viswak
+    printf("7. Tensile calculator\n");  //Viswak
+    printf("8. Dutycycle\n");   //Sambit
+    printf("9. Adder\n");   //Sambit
+    printf("10. Subtractor\n"); //Sambit
+    printf("11. PCB Trace Width\n");    //Tanmaya
+    printf("12. Division\n");   //Arun
+    printf("13. Parallel\n");   //Saivardhan and Sanjokta
+    printf("14. Series\n");     //Saivardhan and Sanjokta
+    printf("15. Resistor colour code\n");   //Paras
+    printf("16. Circular convolution\n");   //sanjokta
     printf("Type : ");
     scanf("%d",&num);
    
