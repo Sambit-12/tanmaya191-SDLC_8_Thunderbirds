@@ -107,3 +107,24 @@
 
 ### Use Case
 ![alt text](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/ce52a29b598d4c42cb59e771c4c6548a685c505f/2_Design/Usecase(1).png)
+
+## Application 17 - Ohm's Law
+# Architecture
+![ohmlaw](https://user-images.githubusercontent.com/86397294/130635722-88be4378-13d1-4ef4-bf0a-78ec20a1fe6f.png)
+
+## Application 18 - Findig Tensile Strength of Conductors
+# Architecture
+![tscalci()](https://user-images.githubusercontent.com/86397294/130635868-8ff08200-7469-456a-829b-3e63509dc28d.png)
+
+## Application 19 - Kirchoff's Current Law
+# Architecture
+![kcl](https://user-images.githubusercontent.com/86397294/130635988-caf95b3e-e5b7-4951-a1b9-25cd9bd287ca.png)
+
+## Application 20 - Kirchoff's Voltage Law
+# Architecture
+![kvl](https://user-images.githubusercontent.com/86397294/130636354-0c6e8112-a440-4e3c-b114-085b9545c978.png)
+
+
+
+
+
