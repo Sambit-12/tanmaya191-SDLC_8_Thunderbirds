@@ -67,29 +67,29 @@ double trace_width_inputs(){
     double current, thickness, temperature_rise, ambient_temperature, trace_length;  
     double internal_trace_width, external_trace_width;
     // Input values from the user
-    printf("Welcome to Trace Width Calculator");
+    printf("\nWelcome to Trace Width Calculator\n");
 
-    printf("Enter the value of current");
+    printf("\nEnter the value of current in Amps\n");
     scanf("%lf", &current);
 
-    printf("Enter value of Thickness"); 
+    printf("\nEnter value of Thickness in oz\n"); 
     scanf("%lf", &thickness);
 
-    printf("Enter valur of temperature rise");
+    printf("\nEnter valur of temperature rise in degree celcius\n");
     scanf("%lf", &temperature_rise);
 
-    printf("Enter the value of Ambient Temperature");
+    printf("\nEnter the value of Ambient Temperature in degree celcius\n");
     scanf("%lf", &ambient_temperature);
 
-    printf("Enter the value of trace length");
+    printf("\nEnter the value of trace length in micrometres\n");
     scanf("%lf", &trace_length);
 
     internal_trace_width= internal_trace_width_calculator(current,thickness,temperature_rise,ambient_temperature,trace_length);
 
     external_trace_width= external_trace_width_calculator(current,thickness,temperature_rise,ambient_temperature,trace_length);
 
-    printf("Internal Trace width is %lf", internal_trace_width);
-    printf("External Trace width is %lf", external_trace_width);
+    printf("\nInternal Trace width is %lf", internal_trace_width);
+    printf("\nExternal Trace width is %lf", external_trace_width);
 }
 
 
