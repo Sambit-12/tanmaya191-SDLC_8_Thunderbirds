@@ -1,9 +1,9 @@
 # Team:- Thunderbirds
 
 
-## SDLC Mini Project Group-8 : Multipurpose Electronic Calculator
+## SDLC Mini Project Group-8 : Multipurpose Electrical and Electronics Calculator.
 
-### This system is designed to perform various electrical and electronics calculations.
+### This system is designed to perform various electrical and electronics calculation.
 
 ![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
 
@@ -38,7 +38,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99005705 | Shashank Bhati  | Find Machine parameters and selection of Wires   | 1     | 1  | 8   | 8     
+99005705 | Shashank Bhati  | Find Machine parameters and selection of Wires   | 1     | 1  | 9   | 9     
 99005739 | Tanmaya Prasad Mangaraj  | PCB Trace width calculation   | 6     | 2  | 2   | 2  
 99005756 | Sambit Nayak             | Calculation for Duty Cycle and output Voltage of the waveform, Half Adder and Half Subtractor| 0| 0| 2|2
 99005752 | Paras Jain               | Resistor Color Code            | 0     | 0  |2   |2     
@@ -71,4 +71,16 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 #### Overcome - We all share our problem in team group. So, member who know the solution share with others.
 
 
+### Day 4
+
+#### Challenges Faced - Members of the group added some feautures and updated the Test plan and Contributors list. All the members had connect session with the mentor for the feedback and what changes or improvements need to be done before final submissions.
+
+#### Overcome - After got the feedback from the mentor we start working on it and improvements done before Day 5.
+
+
+### Day 5
+
+#### Challenges Faced - As we almost completed our project the only one thing is pending the working video of our project.
+
+#### Overcome - Day 5 is the final day of our project. All push there code in ripo and it is passing all the checks. We also made a working video of our project and have meeting with mentor to show the output our project. 
 
