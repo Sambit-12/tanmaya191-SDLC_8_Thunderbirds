@@ -46,11 +46,11 @@
 
 ### High Level Design 
 
-![HighLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/HELP/main/HL%20UML%20For%20Duty%20Cycle.png)
+![HighLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/HELP/main/HL%20UML%20diagram%20Duty%20Cycle.jpg)
 
 ### Low Level Design 
 
-![FeaturesLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/HELP/main/LL%20UML%20for%20Duty%20Cycle.png)
+![FeaturesLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/HELP/main/LL%20UML%20diagram%20for%20Duty%20Cycle.jpg)
 
 ## Application 5 To Display Half Adder and Subtractor
 
@@ -58,11 +58,11 @@
 
 ### High Level Design 
 
-![HighLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/Mywork/main/HL%20UML%20Diagram%20for%20Half%20Adder%20and%20Subtractor.jpg)
+![HighLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/Mywork/main/Hl%20UML%20diagram%20half%20adder%20and%20Subtractor.jpg)
 
 ### Low Level Design 
 
-![FeaturesLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/Mywork/main/LL%20UML%20DIAGRAM%20for%20Half%20Adder%20and%20Subtractor.jpg)
+![FeaturesLevelStructuralDiagram](https://raw.githubusercontent.com/Sambit-12/Mywork/main/LL%20UML%20diagram%20of%20Half%20adder%20and%20Subtractor.jpg)
 
 ## Application 6 - Star and Delta conversions
 
