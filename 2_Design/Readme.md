@@ -109,18 +109,30 @@
 ![alt text](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/ce52a29b598d4c42cb59e771c4c6548a685c505f/2_Design/Usecase(1).png)
 
 ## Application 17 - Ohm's Law
+# High Level
+![Ohm-High](https://user-images.githubusercontent.com/86397294/130643699-141066b7-dd90-4e59-958b-ae146fef4cc6.png)
+
 # Architecture
 ![ohmlaw](https://user-images.githubusercontent.com/86397294/130635722-88be4378-13d1-4ef4-bf0a-78ec20a1fe6f.png)
 
 ## Application 18 - Findig Tensile Strength of Conductors
+# High Level
+![Tensile-High](https://user-images.githubusercontent.com/86397294/130643789-f546e687-04b0-4c22-86b6-f6abd4b09c8d.png)
+
 # Architecture
 ![tscalci()](https://user-images.githubusercontent.com/86397294/130635868-8ff08200-7469-456a-829b-3e63509dc28d.png)
 
 ## Application 19 - Kirchoff's Current Law
+# High Level
+![Kcl-High](https://user-images.githubusercontent.com/86397294/130643859-8384720b-8df2-482f-a19a-9be3a2a9d4a2.png)
+
 # Architecture
 ![kcl](https://user-images.githubusercontent.com/86397294/130635988-caf95b3e-e5b7-4951-a1b9-25cd9bd287ca.png)
 
 ## Application 20 - Kirchoff's Voltage Law
+# High Level
+![Kvl-High](https://user-images.githubusercontent.com/86397294/130643906-296fc4e4-4ab9-42b5-b853-2a1e575aa942.png)
+
 # Architecture
 ![kvl](https://user-images.githubusercontent.com/86397294/130636354-0c6e8112-a440-4e3c-b114-085b9545c978.png)
 
