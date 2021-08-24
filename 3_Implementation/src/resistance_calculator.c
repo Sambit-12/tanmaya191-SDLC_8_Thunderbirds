@@ -9,7 +9,7 @@ void getColorCode(char colorCode[])
         colorCode[i] = getchar();
 }
 
-long getResistorValue( char colorCode[], int colorValue[], int r_value )
+long getResistorValue( char colorCode[], int colorValue[], long r_value )
 {
 
     int i;
@@ -131,7 +131,7 @@ long getResistorValue( char colorCode[], int colorValue[], int r_value )
 
 int resistance_calculator_paras()
 {
-    int r_value = 0; //should be long to store large values
+    long r_value = 0; //should be long to store large values
     char colorCode[4];
     int  colorValue[4];
 //    int i;
