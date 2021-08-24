@@ -27,3 +27,10 @@
 
 #### Meeting Minutes - Some member completed their task and push their code in team ripo. Other were working on it and also disscus on Day 5 task to complete. 
 
+
+## Day 5 - 23 August 2021
+
+### Meeting Time : 4 p.m to 5 p.m  and   7:15 p.m to 8 p.m
+
+#### Meeting Minutes - Members of the group added some feautures and updated the Test plan and Contributors list. All the members had connect session with the mentor for the feedback and what changes or improvements need to be done before final submissions. 
+
