@@ -58,6 +58,8 @@ void testohm_r(void);
 void test_trace_width_internal();
 void test_trace_width_external();
 
+void testarea_c(void);
+
 
 
 /* Write all the test functions */ 
@@ -221,6 +223,13 @@ void testohm_r(void)
     TEST_ASSERT_NOT_EQUAL(1.9, ohm_r(-1, 2.1));  
 }
 
+
+void testarea_c(void)
+{
+    TEST_ASSERT_EQUAL(12.56, area_c(4));
+    TEST_ASSERT_NOT_EQUAL(11.59, area_c(4)); 
+}
+
 // tanmaya's test cases
 void test_trace_width_external()
 {
@@ -274,6 +283,8 @@ int main()
   // tanmaya's test cases
   RUN_TEST(test_trace_width_external);
   RUN_TEST(test_trace_width_internal);
+
+  RUN_TEST(testarea_c);
 
   /* Close the Unity Test Framework */
   return UNITY_END();

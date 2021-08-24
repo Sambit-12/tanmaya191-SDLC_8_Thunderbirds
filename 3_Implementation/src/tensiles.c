@@ -24,7 +24,7 @@ float area_c(float diameter)
 float area_s(float mass, float length)
 {
     float area;
-    area = (1000*length)/(2.703*length);
+    area = (1000*mass)/(2.703*length);
     return area;
 }
  // Initialization of tensile strength parameters
