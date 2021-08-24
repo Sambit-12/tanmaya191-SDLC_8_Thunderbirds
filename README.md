@@ -1,23 +1,21 @@
-# Team:- Thunderbirds
+# Team Name:- Thunderbirds
+# Team No:- 08
 
+## SDLC Mini Project : Multipurpose Electrical and Electronics Calculator.📱
 
-## SDLC Mini Project Group-8 : Multipurpose Electrical and Electronics Calculator.
-
-### This system is designed to perform various electrical and electronics calculation.
+###  Multipurpose Electrical and Electronics Calculator.📱
+In this project, a new system is designed to perform various electrical and electronics calculations and conversions. This system allows the user to solve problems quickly and in an efficient manner and with less complexity.
 
 ![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
 
 ## Steps to test and run the program: 
-1. clone the repo https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds.git
-2. open 3_Implemention folder
-3. Run command: **make**   (To build the code)
-4. Run command: **make test**  (To test the code)
-6. Run command: **make run**  (To run the code)
+1. Refer contents from 3_Implemention folder.
+2. Refer images and videos from 6_Images_and_Videos folder.
 
-## Recorded Video 
+## Recorded Video 🎬 
 Recorded video https://youtu.be/CEcKyLWRNkA
 
-## Badges
+## Badges🥇
 
 Build | Code Quality | Unity | Git Inspector | Code Coverage | Valgrind | Code Inspector | Codacy Badge
 ------|----------|-------|--------------|--------------|---------|----------|---------
@@ -49,47 +47,37 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 99005722 | Sangeetha Nambiraj       | Star and Delta Conversions| 0| 1|0 | 0
 99005747 | Sanjokta Motghare        | Equivalent Resistance & Circular Convolution | 0 | 0 | 6 | 6
 
-# Git Inspector result
+## Git Inspector result
 
 ![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture1.PNG?raw=true)
-
 ![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture2.PNG?raw=true)
-
 ![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture3.PNG?raw=true)
 
-## Challenges Faced and How Was It Overcome
+
+## Challenges Faced and How Was It Overcome🎯
 
 ### Day 1 
 
 #### Challenges Faced - All having different ideas and thoughts. All ideas were unique and intresting which create lots of confusion to select the project.
-
 #### Overcome - At the end of second meeting we finally select the project.
-
 
 ### Day 2
 
 #### Challenges Faced - We all want to make the project user friendly and less complex which took lot of time in discussion. 
-
 #### Overcome - Each team member is very active and hard working. So, we easily overcome that challenge.
-
 
 ### Day 3
 
 #### Challenges Faced - We all started working on different application. While working on respective code of application face some issues. 
-
 #### Overcome - We all share our problem in team group. So, member who know the solution share with others.
-
 
 ### Day 4
 
 #### Challenges Faced - Members of the group added some feautures and updated the Test plan and Contributors list. All the members had connect session with the mentor for the feedback and what changes or improvements need to be done before final submissions.
-
 #### Overcome - After got the feedback from the mentor we start working on it and improvements done before Day 5.
-
 
 ### Day 5
 
 #### Challenges Faced - As we almost completed our project the only one thing is pending the working video of our project.
-
 #### Overcome - Day 5 is the final day of our project. All push there code in repo and it is passing all the checks. We also made a working video of our project and have meeting with mentor to show the output our project. 
 
