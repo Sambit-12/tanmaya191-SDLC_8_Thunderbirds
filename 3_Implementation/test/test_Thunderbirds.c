@@ -39,6 +39,8 @@ void test_series_capacitance(void);
 void test_series_inductance(void);
 void test_parallel_capacitance(void);
 void test_parallel_inductance(void);
+void test_series_resistance(void);
+void test_parallel_resistance(void);
 
 // sambit's test cases
 void test_halfadd1(void);
@@ -134,6 +136,18 @@ void test_parallel_capacitance(void)
   TEST_ASSERT_EQUAL(30.333333,parallel_capacitance(3,x));
   TEST_ASSERT_EQUAL(60.666667,parallel_capacitance(3,y));
   TEST_ASSERT_EQUAL(90.000000,parallel_capacitance(3,z));
+}
+void test_series_resistance(void)
+{
+  TEST_ASSERT_EQUAL(30, series_resistance(3,x));
+  TEST_ASSERT_EQUAL(60, series_resistance(3,y));
+  TEST_ASSERT_EQUAL(90, series_resistance(3,z));
+}
+void test_parallel_resistance(void)
+{
+  TEST_ASSERT_EQUAL(3.33, parallel_resistance(3,x));
+  TEST_ASSERT_EQUAL(6.67, parallel_resistance(3,y));
+  TEST_ASSERT_EQUAL(10, parallel_resistance(3,z));
 }
 /// sambit's test cases
 void test_halfadd1(void)
@@ -239,6 +253,9 @@ int main()
   RUN_TEST(test_series_inductance);
   RUN_TEST(test_parallel_capacitance);
   RUN_TEST(test_parallel_inductance);
+  RUN_TEST(test_series_resistance);
+  RUN_TEST(test_parallel_resistance);
+
  
  // Sambit's test cases
   RUN_TEST(test_halfadd1);
