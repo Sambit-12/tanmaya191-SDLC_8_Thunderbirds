@@ -110,25 +110,28 @@
 
 ## Application 17 - Ohm's Law
 # High Level
-![ohms](https://user-images.githubusercontent.com/86397294/130638898-e122ebc9-9830-48e8-84b5-1956bc8f6898.png)
+![Ohm-High](https://user-images.githubusercontent.com/86397294/130643699-141066b7-dd90-4e59-958b-ae146fef4cc6.png)
 
 # Architecture
 ![ohmlaw](https://user-images.githubusercontent.com/86397294/130635722-88be4378-13d1-4ef4-bf0a-78ec20a1fe6f.png)
 
 ## Application 18 - Findig Tensile Strength of Conductors
+# High Level
+![Tensile-High](https://user-images.githubusercontent.com/86397294/130643789-f546e687-04b0-4c22-86b6-f6abd4b09c8d.png)
+
 # Architecture
 ![tscalci()](https://user-images.githubusercontent.com/86397294/130635868-8ff08200-7469-456a-829b-3e63509dc28d.png)
 
 ## Application 19 - Kirchoff's Current Law
 # High Level
-![KCL](https://user-images.githubusercontent.com/86397294/130639078-39ac50e3-c7a5-4947-a97b-338e9ad945f7.png)
+![Kcl-High](https://user-images.githubusercontent.com/86397294/130643859-8384720b-8df2-482f-a19a-9be3a2a9d4a2.png)
 
 # Architecture
 ![kcl](https://user-images.githubusercontent.com/86397294/130635988-caf95b3e-e5b7-4951-a1b9-25cd9bd287ca.png)
 
 ## Application 20 - Kirchoff's Voltage Law
 # High Level
-![KVL](https://user-images.githubusercontent.com/86397294/130639156-04cff9b5-a1d2-4b14-93d0-a042ec242a4d.png)
+![Kvl-High](https://user-images.githubusercontent.com/86397294/130643906-296fc4e4-4ab9-42b5-b853-2a1e575aa942.png)
 
 # Architecture
 ![kvl](https://user-images.githubusercontent.com/86397294/130636354-0c6e8112-a440-4e3c-b114-085b9545c978.png)
