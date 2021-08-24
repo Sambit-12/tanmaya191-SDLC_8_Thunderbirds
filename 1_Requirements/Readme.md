@@ -1,23 +1,28 @@
-# Requirements 📝
+# Electronic Calculator📱
 
-## Introduction
+## Requirements 📝
+
+### Introduction
 In this project, a new system is designed to perform various electrical and electronics calculations and conversions. This system allows the user to solve problems quickly and in an efficient manner.
 
-## Research
+### Research
 
 ### Ohm’s Law
 *	In electronics, Ohm’s law is vitally important to describe the circuits, as it relates voltage to the current with the resistance value.
 *	This law was derived by the German Physicist, George Simon Ohm.
 *  Ohm’s law is used to maintain the desired voltage drop across the electronic components and it is used in DC ammeter and other DC shunts to divert the current. Its application also ranges from household appliances to massive projects.
+*  With this feature which exhibits ohm's law we can play with basic electrical parameters like voltage, current and resistance.
 
 ### Kirchoff’s Current Law (KCL)
 * It is first Kirchoff’s law that deals with the conservation of charge.
 * The law states that total current entering a junction or node is exactly equal to the charge leaving the node as it has no place to go except to leave, as no charge is lost within the node.
+* This feature also calculates the current flowing towards the circuit and current flowing away from the circuit seperately.
 
 ### Kirchoff’s Voltage law (KVL)
 * It is the second law that deals with the conservation of energy around a closed circuit path.
 * It states that for a closed loop series path the algebraic sum of all the voltages around any closed loop in a circuit is equal to zero.
 * It is used for voltage measurement in circuits.
+* Using this feature we can find voltages in each loops of any multi-loop system and also the total voltage passing through the system.
 
 ### Duty cycle
 *	Duty cycle is the ratio of time a load or circuit is ON compared to the time the load or circuit is OFF.
@@ -34,6 +39,7 @@ In this project, a new system is designed to perform various electrical and elec
 * Inputs are called Augend and Added bits and Outputs are called Sum and Carry.
 *	Sum =  A XOR B
 *	Carry= A AND B 
+
 ### Half Subtractor
 * It is a combinational logic circuit designed to perform subtraction of two single bits.
 * It contains two inputs (A and B) and produces two outputs (Difference and Borrow-output).
@@ -74,6 +80,8 @@ In this project, a new system is designed to perform various electrical and elec
 * Tensile strength is the amount of load or stress that can be handled by a material before it stretches and breaks.
 * It is the material’s resistance to tension that is caused by mechanical loads applied to the material.
 * It measures the force required to pull something such as rope, wire or a structural beam to the point where it breaks.
+* Different conductors with different tensile strength are used for thier respective applications.
+* Using this feature the user can get to opt the suitable conductor for his/her application
 
 ### Circular Convolution
 * Circular convolution is a special case of periodic convolution, which is the convolution of two periodic functions that have the same period.
@@ -88,6 +96,7 @@ In this project, a new system is designed to perform various electrical and elec
 ## Defining our system
 *	In this system, the essential parameters are obtained from the user as input and this system will compute the values depending on the choice made by the user for calculation.
 
+
 ## SWOT ANALYSIS🔍
 ![Screenshot (1)](https://user-images.githubusercontent.com/86397294/130183334-019dbea3-915c-4701-9086-12e86f145b1f.png)
 
@@ -96,24 +105,31 @@ In this project, a new system is designed to perform various electrical and elec
 
 ## 1️⃣Who?
 - Any person who intends to play with some fundamentals of Electrical and Electronics arena.
+- It can be used by anyone at any place.
+- Can by used ny students from schools to graduates.
+- suitable for any comman man to perform simple calculation .
 
-## 2️⃣What?
-- A virtual and command line interface based project which does basic calculation and conversions of basic electrical concepts, analysis and monitoring of various parameters of     electrical machines.
+## 2️⃣Why?
+- To reduce the complexity in calculation involving electrical parameters
+- To make a handy module for students and working professionals.
+- To make a Time effecient, reliable and simple prototype.
 
 ## 3️⃣When?
-- The project is developed as a part of "Applied SDLC Module" of Genesis internship program.
+- A virtual and command line interface based project which does basic calculation and conversions of basic electrical concepts, analysis and monitoring of various parameters of     electrical machines and developed as a part of "Applied SDLC Module" of Genesis internship program.
 - The project can be employed when there is need in calculation of basic Electrical concepts either in day-to-day aplplication or for labrotary procedures. 
 
 ## 4️⃣Where?
 - The program is developed in Visual StudioCode IDE.
 - Users can use this application on their desktop or laptop terminal
+- Can be used in schools and universities for labrotary purposes
  
 ## 1️⃣How?
 - The module was build solely by using C and concepts like "Make Files" has been implemented.
 - Testing has been carried out by "Unity"
 - And the code quality is ensured by screening the code in various code reviewing entities such as "Codacy", "Git Inspector", etc.
 
-# Detail requirements
+
+# Detail requirements 📋
 
 ## High Level Requirements
 | ID | Description | Status (Implemented) |
@@ -134,6 +150,7 @@ In this project, a new system is designed to perform various electrical and elec
 | HA14 | Finding the total voltage in a system of many loops using Kircoff's voltage law | Implemented |
 | HA15 | Calculating the amount of cuurent entering the circuit and leaving the circuit using Kirchoff's current law | Implemented |
 | HA16 | Calculating the tensile strength of conductors | Implemented |
+
 
 ## Low level Requirements
 | ID | Description |HLR|Status (Implemented)| 
