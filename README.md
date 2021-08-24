@@ -33,6 +33,7 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 `5_Daily_Update`      | Documents with outcomes of daily meetings
 `6_Images_and_videos`      | Screenshot of Code execution and testing
+`7_Documentation`      | Doxygen Documentation
 
 ## Contributors List and Summary
 
