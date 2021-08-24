@@ -34,3 +34,9 @@
 
 #### Meeting Minutes - Members of the group added some feautures and updated the Test plan and Contributors list. All the members had connect session with the mentor for the feedback and what changes or improvements need to be done before final submissions. 
 
+
+## Day 6 - 24 August 2021
+
+### Meeting Time : 2 p.m to 3:30 p.m  and  7:15 to 7:30 p.m
+
+#### Meeting Minutes - Today is the final day of our projet. All push there code in ripo and it is passing all the checks. We also made a working video of our project and have meeting with mentor to show the output our project.
