@@ -31,14 +31,14 @@
 ### Architecture
 ![image](https://github.com/314181/practise/blob/main/parallel%20LC.png)
 ### Usecase
-![image](https://github.com/314181/practise/blob/main/parallelLC%20Usecase.png)
+![image](https://github.com/314181/practise/blob/main/parallel%20uml%20(2).png)
 
 ## Calculating equivalent capacitance and inductance in series connection
 
 ### Architecture
 ![image](https://github.com/314181/practise/blob/main/series%20LC.png)
 ### Usecase
-![image](https://github.com/314181/practise/blob/main/seriesLC%20Usecase.png)
+![image](https://github.com/314181/practise/blob/main/series%20UML.png)
 
 ## Application 4 To Find Duty Cycle and Voltage of the Output waveform
 
