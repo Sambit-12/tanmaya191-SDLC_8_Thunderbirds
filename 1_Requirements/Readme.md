@@ -149,7 +149,8 @@ In this project, a new system is designed to perform various electrical and elec
 | LA09 | Equivalent Resistance(Parallel) when voltage accross the Resistor are same. (Increasing of Current) |HA06| Implemented|
 | LA10 | We have to give current value to "trace" which  results in  increase in trace temperature below a specified limit. |HA07|Implemented|
 | LA11 | By giving the length of the trace, total resistance, voltage drop, and power loss due to trace resistance are also calculated. |HA07| Implemented|
-| LA11 | Duty Cycle is Being calculated by calculating Ton Period and Toff Period of the wave and Output Voltage of the wave .| HA08|Implemented|
+| LA11 | Duty Cycle is Being calculated by calculating Ton Period and Toff Period of the wave | HA08|Implemented|
+| LA12 | Output Voltage of the waveform is calculated by giving input voltage and Calculated Duty Cycle value | HA08|Implemented|
 | LA12 | Calculating Power Input and Output using Voltage and Current | HA09|Implemented|
 | LA13 | Calculating Speed, Torque of Motor/Generator  | HA09|Implemented|
 | LA14 | Input of 4 Sequence Given 0 0, 0 1, 1 0, 11 For Half Adder |HA10| Implemented|
