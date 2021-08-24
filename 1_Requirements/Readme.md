@@ -130,10 +130,10 @@ In this project, a new system is designed to perform various electrical and elec
 | HA10 | Obtaining the Expression for Half Adder| Implemented |
 | HA11 | Obtaining the Expression for Half Subtractor| Implemented|
 | HA12 | Calculating Equivalent capacitance and Inductance both in series and parallel | Implemented |
-
-
-
-
+| HA13 | Finding Electrical parameters using ohm's law | Implemented |
+| HA14 | Finding the total voltage in a system of many loops using Kircoff's voltage law | Implemented |
+| HA15 | Calculating the amount of cuurent entering the circuit and leaving the circuit using Kirchoff's current law | Implemented |
+| HA16 | Calculating the tensile strength of conductors | Implemented |
 
 ## Low level Requirements
 | ID | Description |HLR|Status (Implemented)| 
@@ -157,4 +157,9 @@ In this project, a new system is designed to perform various electrical and elec
 | LA16 | Performing XOR and AND Operation in all the 4 Sequence 0 0, 0 1, 1 0, 11 to get Half Adder Result | HA10 | Implemented|
 | LA17 | Input of 4 Sequence Given 0 0, 0 1, 1 0, 1 1 For Half Subtractor |HA11|Implemented|
 | LA18 | Performing XOR and (!)Not operation with  AND Operation combined to all the 4 Sequence 0 0, 0 1, 1 0, 11 to get Half Subtractor Result | HA11 | Implemented|
-| LA19 | Calculating LC in series and parallel | HA12 | Implemented |
+| LA19 | Calculating resistance using voltage and current | HA13 | Implemented |
+| LA20 | Calculating current using voltage and resistance | HA13 | Implemented |
+| LA21 | Calculating voltage using current and resistance | HA13 | Implemented |
+| LA22 | Confirmation of total nodes is always equals to sum of nodes where current comes in and nodes where current flows away | HA15 | Implemented |
+| LA23 | Calculating area of cylindrical conductors to find tensile strength | HA16 | Implemented |
+| LA24 | Calculating area of shaped conductors to find tensile strength | HA16 | Implemented |
