@@ -50,11 +50,11 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 # Git Inspector result
 
-![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture1.png?raw=true)
+![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture1.PNG?raw=true)
 
-![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture2.png?raw=true)
+![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture2.PNG?raw=true)
 
-![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture3.png?raw=true)
+![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture3.PNG?raw=true)
 
 ## Challenges Faced and How Was It Overcome
 
