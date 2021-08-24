@@ -131,7 +131,7 @@ long getResistorValue( char colorCode[], int colorValue[], int r_value )
 
 int resistance_calculator_paras()
 {
-    long r_value = 0; //should be long to store large values
+    int r_value = 0; //should be long to store large values
     char colorCode[4];
     int  colorValue[4];
 //    int i;
