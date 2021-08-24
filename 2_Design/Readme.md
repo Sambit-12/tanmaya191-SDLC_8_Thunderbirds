@@ -84,3 +84,7 @@
 ![current](https://user-images.githubusercontent.com/86049636/130554143-24c154e9-bd01-410f-a8c6-36835172e9f8.png)
 
 
+## Application 8 - Calculating trace width of a PCB
+
+### Architecture
+![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/main/2_Design/trace_width.jpg)
