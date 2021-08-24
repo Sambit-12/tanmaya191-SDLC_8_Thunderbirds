@@ -95,6 +95,11 @@
 ### Architecture
 ![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/2_Design/trace_width.png?raw=true)
 
+## Application 10 - FINDING REGISTER COLOR CODE
+
+### Architecture
+![image](https://github.com/rajkishlay/test/blob/main/UML%20Diagram%20K.png)
+
 ## APPLICATION 16 - Calculating Circular Convolution
 
 ### Architecture
