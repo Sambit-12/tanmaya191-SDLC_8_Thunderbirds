@@ -31,3 +31,5 @@
 |  L_12       | The Input Value has boundary constrain as it is Half adder and Subtractor binary input range is 0-4               |Success | Success | Success | Boundary based |
 |  L_13       | The passive elements required for the conversion are displayed                                             | Success | Success | Success | Requirement based |
 |  L_14       | Conversion of output (star/delta) for each element with respective inputs (delta/star) |Success | Success | Success | Scenario based |
+| L_15        |Finding Voltage from Voltage Division Circuit                                           |Success | Success | Success | requirement based|
+|L_16         |Finding Current from Current Division Circuit                                           |Success | Success | Success | requirement based|
