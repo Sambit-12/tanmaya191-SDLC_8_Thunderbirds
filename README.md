@@ -40,7 +40,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 -------|---------|----------------|----------------|---------------|-------------|--------------
 99005705 | Shashank Bhati  | Find Machine parameters and selection of Wires   | 1     | 1  | 9   | 9     
 99005739 | Tanmaya Prasad Mangaraj  | PCB Trace width calculation   | 6     | 2  | 2   | 2  
-99005756 | Sambit Nayak             | Calculation for Duty Cycle and output Voltage of the waveform, Half Adder and Half Subtractor| 0| 0| 2|2
+99005756 | Sambit Nayak             | Calculation for Duty Cycle and output Voltage of the waveform, Half Adder and Half Subtractor| 0| 0| 6|6
 99005752 | Paras Jain               | Resistor Color Code            | 0     | 0  |2   |2     
 99005749 | Saivardhan Reddy. S      | Equivalent Capacitance and Inductance | 3 | 3 | 12 | 12 |
 99005719 | Kaligota Arun kumar      | current and voltage division  | 0| 0 | X No | X No
