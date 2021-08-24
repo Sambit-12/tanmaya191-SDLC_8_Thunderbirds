@@ -8,9 +8,14 @@
 #include "inc/DutyCycle.h"
 #include "inc/CircularConvolution.h"
 #include "inc/resistance_calculator.h"
+#include "input_check.h"
+
 int main()
 {
+    //execute();
+
     int num;
+
     printf("------------------------------------WELCOME-------------------------------------\n");
     printf("Select the type of calculation\n");
     printf("1. Motor parameters\n");  // Shashank
@@ -29,9 +34,10 @@ int main()
     printf("14. Series\n");     //Saivardhan and Sanjokta
     printf("15. Resistor colour code\n");   //Paras
     printf("16. Circular convolution\n");   //sanjokta
-    printf("Type : ");
-    scanf("%d",&num);
-   
+    
+    
+
+    num= input_check();
     switch(num)
     {
         case 1:
@@ -131,8 +137,26 @@ int main()
             circular_convolution();
             break;
         }
-        default:
-        printf("Enter valid option");
-   }
+
+        
+
+    }
+
+        // return to program
+        printf("\nEnter 1 to return to main menu\n");
+        printf("\nEnter 2 to exit the program\n");
+        int menu_input;
+        scanf("%d",&menu_input);
+        if(menu_input==1){
+            main();
+        }
+    
+    
+    
+    
+    
+
+
+   
    return 0;
 }

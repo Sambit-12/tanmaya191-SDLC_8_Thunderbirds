@@ -39,8 +39,8 @@ src/trace_width.c\
 src/starDeltaConversion.c\
 src/division.c\
 src/CircularConvolution.c\
-src/resistance_calculator.c
-
+src/resistance_calculator.c\
+src/input_check.c
 
 TEST_SRC = \
 test/test_Thunderbirds.c \
