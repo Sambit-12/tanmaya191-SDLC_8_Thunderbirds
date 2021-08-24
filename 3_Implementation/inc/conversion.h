@@ -1,7 +1,7 @@
 /**
- * @file Thunderbirds.h
+ * @file conversion.h
  * @author Sangeetha Nambiraj
- * @brief 
+ * @brief header file of starDeltaConversion is added here
  * @version 0.1
  * @date 2021-08-22
  * 
