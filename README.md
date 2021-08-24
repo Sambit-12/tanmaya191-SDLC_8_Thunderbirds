@@ -54,7 +54,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 #### Challenges Faced - All having different ideas and thoughts. All ideas were unique and intresting which create lots of confusion to select the project.
 
-#### Overcome - At the end of secend meeting we finally select the project.
+#### Overcome - At the end of second meeting we finally select the project.
 
 
 ### Day 2
@@ -82,5 +82,5 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 #### Challenges Faced - As we almost completed our project the only one thing is pending the working video of our project.
 
-#### Overcome - Day 5 is the final day of our project. All push there code in ripo and it is passing all the checks. We also made a working video of our project and have meeting with mentor to show the output our project. 
+#### Overcome - Day 5 is the final day of our project. All push there code in repo and it is passing all the checks. We also made a working video of our project and have meeting with mentor to show the output our project. 
 
