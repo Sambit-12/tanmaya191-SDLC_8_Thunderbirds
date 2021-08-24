@@ -6,7 +6,8 @@
 ###  Multipurpose Electrical and Electronics Calculator.📱
 In this project, a new system is designed to perform various electrical and electronics calculations and conversions. This system allows the user to solve problems quickly and in an efficient manner and with less complexity.
 
-![Pages for Report -optional](https://www.fanucamerica.com/images/default-source/cnc-images/simulators/cncsimulator555x232024e18b7eac54234ad38f6fd73c47482.png?sfvrsn=d7c3b47b_0)
+![Screenshot (5)](https://user-images.githubusercontent.com/86397294/130669445-7bc7771d-b078-4bd4-b306-4e95ffe702ce.png)
+
 
 ## Steps to test and run the program: 
 1. Refer contents from 3_Implemention folder.
@@ -47,6 +48,8 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 99005716 | Viswak Sena Thirumal     |ohm's law, kvl, kcl, Tensile strength | 0| 0 | 8 | 8
 99005722 | Sangeetha Nambiraj       | Star and Delta Conversions| 0| 1|0 | 0
 99005747 | Sanjokta Motghare        | Equivalent Resistance & Circular Convolution | 0 | 0 | 6 | 6
+
+![team](https://user-images.githubusercontent.com/86397294/130669563-1a64df8a-93af-4c70-b6d3-b8120b9ccf71.png)
 
 ## Git Inspector result
 
