@@ -48,6 +48,14 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 99005722 | Sangeetha Nambiraj       | Star and Delta Conversions| 0| 1|0 | 0
 99005747 | Sanjokta Motghare        | Equivalent Resistance & Circular Convolution | 0 | 0 | 6 | 6
 
+# Git Inspector result
+
+![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture1.png?raw=true)
+
+![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture2.png?raw=true)
+
+![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/6_Images_and_videos/Capture3.png?raw=true)
+
 ## Challenges Faced and How Was It Overcome
 
 ### Day 1 
