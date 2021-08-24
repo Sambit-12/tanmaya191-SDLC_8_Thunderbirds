@@ -147,7 +147,7 @@ int resistance_calculator_paras()
 	//function returns a long , should be stored in a long variable
       r_value =  getResistorValue(colorCode, colorValue, r_value);
         
-    printf("\n\nThe resistor with color code %c %c %c %c has a value of %l Ohms.\n",
+    printf("\n\nThe resistor with color code %c %c %c %c has a value of %ld Ohms.\n",
             colorCode[0], colorCode[1], colorCode[2], colorCode[3], r_value);
             
     return 0;
