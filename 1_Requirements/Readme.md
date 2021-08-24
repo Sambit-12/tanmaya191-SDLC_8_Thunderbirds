@@ -136,7 +136,7 @@ In this project, a new system is designed to perform various electrical and elec
 
 
 ## Low level Requirements
-| ID | Description |HLR|Status (To be implemented)| 
+| ID | Description |HLR|Status (Implemented)| 
 | ---- | ----------- | --------------------------- |-----------|
 | LA01 | Calculation of Rasistance from the resistor color band | HA01 | Implemented|
 | LA02 | Current Divsion Calculation using combination of resistance values| HA02 |Implemented|
