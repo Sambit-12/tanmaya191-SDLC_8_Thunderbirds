@@ -83,6 +83,9 @@
 
 ## APPLICATION 8 - CURRENT AND VOLTAGE DIVISION
 ![current](https://user-images.githubusercontent.com/86049636/130554143-24c154e9-bd01-410f-a8c6-36835172e9f8.png)
+## usecase diagram
+![usecase](https://user-images.githubusercontent.com/86049636/130576533-12ab0c06-3fd8-4803-ae93-bdc378e33aed.png)
+
 
 
 ## Application 9 - Calculating trace width of a PCB
