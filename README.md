@@ -33,6 +33,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 99005756 | Sambit Nayak             | Half Adder and Half Subtractor Display                      | 0| 0| 4| 4
 99005752 | Paras Jain               |Resistor Color Code            | 0     | 0  |X No   |X No     
 99005749 | Saivardhan Reddy. S      | Equivalent Capacitance and Inductance | 3 | 3 | 12 | 12 |
+99005719 | Kaligota Arun kumar      | current and voltage division  | 0| 0 | X No | X No
 
 ## Challenges Faced and How Was It Overcome
 
