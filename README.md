@@ -32,6 +32,7 @@ Folder             | Description
 `5_Daily_Update`      | Documents with outcomes of daily meetings
 `6_Images_and_videos`      | Screenshot of Code execution and testing
 `7_Documentation`      | Doxygen Documentation
+`8_Report`      | Report represents the documentation for the whole project
 
 ## Contributors List and Summary
 
