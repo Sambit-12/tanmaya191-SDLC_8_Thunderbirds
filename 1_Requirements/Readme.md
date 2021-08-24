@@ -1,4 +1,4 @@
-# Electronic Calculator📱
+# Multipurpose Electrical and Electronics Calculator📱
 
 ## Requirements 📝
 
