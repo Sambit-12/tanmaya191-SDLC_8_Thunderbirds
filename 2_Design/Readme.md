@@ -92,3 +92,11 @@
 
 ### Architecture
 ![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/2_Design/trace_width.png?raw=true)
+
+## APPLICATION 16 - Calculating Circular Convolution
+
+### Architecture
+![alt text](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/ce52a29b598d4c42cb59e771c4c6548a685c505f/2_Design/Arc.png)
+
+### Use Case
+![alt text](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/ce52a29b598d4c42cb59e771c4c6548a685c505f/2_Design/Usecase(1).png)
