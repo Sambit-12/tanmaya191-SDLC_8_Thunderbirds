@@ -73,7 +73,7 @@ coverage:
 	cp test/test_Thunderbirds.c .
 	gcc -fprofile-arcs -ftest-coverage  $(INC) test/unity.c test/test_Thunderbirds.c $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC)) -lm
 	$(call FixPath, ./$(TEST_PROJ_NAME).$(EXEC)) 
-	gcov -a $(COV_SRC)
+	
 	$(RM) *.$(EXEC)
 	$(RM) *.gcda
 	$(RM) *.gcno
