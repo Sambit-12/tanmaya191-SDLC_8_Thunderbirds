@@ -148,7 +148,7 @@ In this project, a new system is designed to perform various electrical and elec
 | HA12 | Calculating Equivalent capacitance and Inductance both in series and parallel | Implemented |
 | HA13 | Finding Electrical parameters using ohm's law | Implemented |
 | HA14 | Finding the total voltage in a system of many loops using Kircoff's voltage law | Implemented |
-| HA15 | Calculating the amount of cuurent entering the circuit and leaving the circuit using Kirchoff's current law | Implemented |
+| HA15 | Calculating the amount of current entering the circuit and leaving the circuit using Kirchoff's current law | Implemented |
 | HA16 | Calculating the tensile strength of conductors | Implemented |
 
 
