@@ -150,6 +150,7 @@ In this project, a new system is designed to perform various electrical and elec
 | HA14 | Finding the total voltage in a system of many loops using Kircoff's voltage law | Implemented |
 | HA15 | Calculating the amount of current entering the circuit and leaving the circuit using Kirchoff's current law | Implemented |
 | HA16 | Calculating the tensile strength of conductors | Implemented |
+| HA17 | Calculating Circular Convolution | Implemented |
 
 
 ## Low level Requirements
@@ -180,3 +181,5 @@ In this project, a new system is designed to perform various electrical and elec
 | LA22 | Confirmation of total nodes is always equals to sum of nodes where current comes in and nodes where current flows away | HA15 | Implemented |
 | LA23 | Calculating area of cylindrical conductors to find tensile strength | HA16 | Implemented |
 | LA24 | Calculating area of shaped conductors to find tensile strength | HA16 | Implemented |
+| LA25 | Giving Input sequence of 2 periodic functions | HA17 | Implemented |
+| LA26 | Calculating Circular Convolution for 2 periodic input functions | HA17 | Implemented |
