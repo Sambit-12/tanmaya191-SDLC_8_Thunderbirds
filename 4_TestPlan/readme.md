@@ -46,7 +46,7 @@
 |  L_23       |Parameter passed cannot be negative                 |Success | Success | Success | Boundary based|
 |  L_24       |Number of total nodes must be passed to verify Kirchoff's current law                 |Success | Success | Success | requirement based|
 |  L_25       |Number of total nodes where current is inwards towards circuits and away from circuit must be seperately passed |Success | Success | Success | requirement based|
-|  L_26       |Number of total nodes must be equal to nodes where current is inwards towards circuits and away from circuit|Success | Success | Success | Boundary based|
+|  L_26       |Number of total nodes must be equal to nodes where current flows towards circuits and away from circuit|Success | Success | Success | Boundary based|
 |  L_27       |Number of loops in the given system must be passed|Success | Success | Success | Requirement based|
 |  L_28       |Votage values of each loops must be passed |Success | Success | Success | Requirement based|
 
