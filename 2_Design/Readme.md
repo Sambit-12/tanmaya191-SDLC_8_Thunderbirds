@@ -75,7 +75,8 @@
 ![usecase](https://user-images.githubusercontent.com/67622262/130361011-7f9cd65a-98f2-461d-9216-59eff6700ff3.png)
 
 ## APPLICATON 7 - REGISTOR COLOUR CODE
-![HLD1 (1)](https://user-images.githubusercontent.com/62294775/130433353-26266abb-8708-4827-ae07-6d7bfa9d38a4.png)
+![Untitled9897](https://user-images.githubusercontent.com/62294775/130572660-1f111289-6ab7-4a42-a509-774bbc4e5368.png)
+
 
 ### BEHAVIOURAL DIAGRAM
 ![HLD1](https://user-images.githubusercontent.com/62294775/130433672-5ae0e919-6845-4437-8f40-b2ab94d72655.png)
@@ -84,7 +85,7 @@
 ![current](https://user-images.githubusercontent.com/86049636/130554143-24c154e9-bd01-410f-a8c6-36835172e9f8.png)
 
 
-## Application 8 - Calculating trace width of a PCB
+## Application 9 - Calculating trace width of a PCB
 
 ### Architecture
-![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/main/2_Design/trace_width.jpg)
+![image](https://github.com/tanmaya191/tanmaya191-SDLC_8_Thunderbirds/blob/main/2_Design/trace_width.png?raw=true)
