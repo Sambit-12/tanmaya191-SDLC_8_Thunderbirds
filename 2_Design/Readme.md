@@ -80,3 +80,7 @@
 ### BEHAVIOURAL DIAGRAM
 ![HLD1](https://user-images.githubusercontent.com/62294775/130433672-5ae0e919-6845-4437-8f40-b2ab94d72655.png)
 
+## APPLICATION 8 - CURRENT AND VOLATGE DIVISION
+![current](https://user-images.githubusercontent.com/86049636/130554143-24c154e9-bd01-410f-a8c6-36835172e9f8.png)
+
+
