@@ -66,15 +66,17 @@
 
 ## Application 6 - Star and Delta conversions
 
-### Architecture
+### High Level Design
 
-![architecture](https://user-images.githubusercontent.com/67622262/130360992-a39de1fa-308e-4502-99bb-e98f9d94c5cf.png)
+![high](https://user-images.githubusercontent.com/67622262/130614755-cc629c3c-ee09-4eae-950a-7e61b76167ec.png)
 
-### Usecase Diagram
+### Low Level Design
 
-![usecase](https://user-images.githubusercontent.com/67622262/130361011-7f9cd65a-98f2-461d-9216-59eff6700ff3.png)
+![low](https://user-images.githubusercontent.com/67622262/130614762-f3947d71-21b8-4a0c-ac9e-f0a4db530677.png)
+
 
 ## APPLICATON 7 - REGISTOR COLOUR CODE
+
 ![Untitled9897](https://user-images.githubusercontent.com/62294775/130572660-1f111289-6ab7-4a42-a509-774bbc4e5368.png)
 
 
